@@ -1,6 +1,6 @@
 <?php
 
-class PersonalinfoController extends Controller
+class EducationController extends Controller
 {
 	/**
 	 * @var string the default layout for the views. Defaults to '//layouts/column2', meaning
@@ -62,14 +62,14 @@ class PersonalinfoController extends Controller
 	 */
 	public function actionCreate()
 	{
-		$model=new Personalinfo;
+		$model=new Education;
 
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
 
-		if(isset($_POST['Personalinfo']))
+		if(isset($_POST['Education']))
 		{
-			$model->attributes=$_POST['Personalinfo'];
+			$model->attributes=$_POST['Education'];
 			if($model->save())
 				$this->redirect(array('view','id'=>$model->ID));
 		}
@@ -91,9 +91,9 @@ class PersonalinfoController extends Controller
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
 
-		if(isset($_POST['Personalinfo']))
+		if(isset($_POST['Education']))
 		{
-			$model->attributes=$_POST['Personalinfo'];
+			$model->attributes=$_POST['Education'];
 			if($model->save())
 				$this->redirect(array('view','id'=>$model->ID));
 		}
@@ -120,23 +120,15 @@ class PersonalinfoController extends Controller
 	/**
 	 * Lists all models.
 	 */
-	public function actionIndex($dept_id)
+	public function actionIndex($id,$name)
 	{
-      if($dept_id==''){
-        $dataProvider=new CActiveDataProvider('Personalinfo');
-		$this->render('index',array(
-			'dataProvider'=>$dataProvider,
-		));
-      }
-      else{
-		$dataProvider=new CActiveDataProvider('Personalinfo',array(
-        'criteria'=>  array('condition' => 'dept_id =:param',
-             'params' => array(':param' => $dept_id)),
+		$dataProvider=new CActiveDataProvider('Education',array(
+        'criteria'=>  array('condition' => 'ID =:param',
+             'params' => array(':param' => $id)),
             'pagination' => array('pageSize' => 4,),));
 		$this->render('index',array(
 			'dataProvider'=>$dataProvider,
 		));
-      }
 	}
 
 	/**
@@ -144,10 +136,10 @@ class PersonalinfoController extends Controller
 	 */
 	public function actionAdmin()
 	{
-		$model=new Personalinfo('search');
+		$model=new Education('search');
 		$model->unsetAttributes();  // clear any default values
-		if(isset($_GET['Personalinfo']))
-			$model->attributes=$_GET['Personalinfo'];
+		if(isset($_GET['Education']))
+			$model->attributes=$_GET['Education'];
 
 		$this->render('admin',array(
 			'model'=>$model,
@@ -158,12 +150,12 @@ class PersonalinfoController extends Controller
 	 * Returns the data model based on the primary key given in the GET variable.
 	 * If the data model is not found, an HTTP exception will be raised.
 	 * @param integer $id the ID of the model to be loaded
-	 * @return Personalinfo the loaded model
+	 * @return Education the loaded model
 	 * @throws CHttpException
 	 */
 	public function loadModel($id)
 	{
-		$model=Personalinfo::model()->findByPk($id);
+		$model=Education::model()->findByPk($id);
 		if($model===null)
 			throw new CHttpException(404,'The requested page does not exist.');
 		return $model;
@@ -171,11 +163,11 @@ class PersonalinfoController extends Controller
 
 	/**
 	 * Performs the AJAX validation.
-	 * @param Personalinfo $model the model to be validated
+	 * @param Education $model the model to be validated
 	 */
 	protected function performAjaxValidation($model)
 	{
-		if(isset($_POST['ajax']) && $_POST['ajax']==='personalinfo-form')
+		if(isset($_POST['ajax']) && $_POST['ajax']==='education-form')
 		{
 			echo CActiveForm::validate($model);
 			Yii::app()->end();

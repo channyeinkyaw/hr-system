@@ -1,19 +1,18 @@
 <?php
-/* @var $this PersonalinfoController */
+/* @var $this DepartmentController */
 /* @var $dataProvider CActiveDataProvider */
 
 $this->breadcrumbs=array(
-	'Employee List',
+	'Departments',
 );
 
 $this->menu=array(
-    
-	array('label'=>'Create New Employee', 'url'=>array('create')),
-//	array('label'=>'Manage Personal Info', 'url'=>array('admin')),
+	array('label'=>'Create Department', 'url'=>array('create')),
+	array('label'=>'Manage Department', 'url'=>array('admin')),
 );
 ?>
 
-<h1>Employee List</h1>
+<h1>Departments</h1>
 
 <?php $this->widget('zii.widgets.CListView', array(
 	'dataProvider'=>$dataProvider,

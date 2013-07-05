@@ -3,14 +3,14 @@
 /* @var $model Personalinfo */
 
 $this->breadcrumbs=array(
-	'Personal-info'=>array('index'),
+	'Employee List'=>array('index','dept_id'=>''),
 	$model->first_name,
 );
 
 $this->menu=array(
 //	array('label'=>'List Personalinfo', 'url'=>array('index')),
 //	array('label'=>'Create Personalinfo', 'url'=>array('create')),
-    array('label'=>'View Education', 'url'=>array('')),
+    array('label'=>'View Education', 'url'=>array('/Education','id'=>$model->educ_id,'name'=>$model->first_name)),
     array('label'=>'View Project History', 'url'=>array('')),
     array('label'=>'View Career History', 'url'=>array('')),
 	array('label'=>'Update Personal Info', 'url'=>array('update', 'id'=>$model->ID)),
@@ -19,7 +19,7 @@ $this->menu=array(
 );
 ?>
 
-<h1>Information of <?php echo $model->first_name.' '.$model->last_name; ?></h1>
+<h1>Information of <?php echo ucfirst($model->first_name).' '.ucfirst($model->last_name); ?></h1>
 
 <?php $this->widget('zii.widgets.CDetailView', array(
 	'data'=>$model,

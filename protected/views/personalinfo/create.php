@@ -3,7 +3,7 @@
 /* @var $model Personalinfo */
 
 $this->breadcrumbs=array(
-	'Personalinfos'=>array('index'),
+	'Employee List'=>array('index','dept_id'=>''),
 	'Create',
 );
 
@@ -13,6 +13,6 @@ $this->menu=array(
 );
 ?>
 
-<h1>Create Personalinfo</h1>
+<h1>Create New Employee</h1>
 
 <?php echo $this->renderPartial('_form', array('model'=>$model)); ?>

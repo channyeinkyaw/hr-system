@@ -8,16 +8,24 @@
 	<b><?php echo CHtml::encode($data->getAttributeLabel('ID')); ?>:</b>
 	<?php echo CHtml::link(CHtml::encode($data->ID), array('view', 'id'=>$data->ID)); ?>
 	<br />
+    
+    <b>Name : 
+      <?php echo strtoupper(CHtml::encode($data->first_name).' '.CHtml::encode($data->last_name));?>
+    </b></br>
+    
+    <b>E-mail : 
+      <?php echo CHtml::encode($data->email);?>
+    </b>
 
-	<b><?php echo CHtml::encode($data->getAttributeLabel('first_name')); ?>:</b>
+<!--	<b><?php echo CHtml::encode($data->getAttributeLabel('first_name')); ?>:</b>
 	<?php echo CHtml::encode($data->first_name); ?>
 	<br />
 
 	<b><?php echo CHtml::encode($data->getAttributeLabel('last_name')); ?>:</b>
 	<?php echo CHtml::encode($data->last_name); ?>
-	<br />
+	<br />-->
 
-	<b><?php echo CHtml::encode($data->getAttributeLabel('birthday')); ?>:</b>
+<!--	<b><?php echo CHtml::encode($data->getAttributeLabel('birthday')); ?>:</b>
 	<?php echo CHtml::encode($data->birthday); ?>
 	<br />
 
@@ -31,7 +39,7 @@
 
 	<b><?php echo CHtml::encode($data->getAttributeLabel('email')); ?>:</b>
 	<?php echo CHtml::encode($data->email); ?>
-	<br />
+	<br />-->
 
 	<?php /*
 	<b><?php echo CHtml::encode($data->getAttributeLabel('dept_id')); ?>:</b>
