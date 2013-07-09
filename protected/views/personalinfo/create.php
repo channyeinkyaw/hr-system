@@ -3,12 +3,12 @@
 /* @var $model Personalinfo */
 
 $this->breadcrumbs=array(
-	'Employee List'=>array('index','dept_id'=>''),
+	'Employee List'=>array('index','data'=>'','type'=>'main','status'=>''),
 	'Create',
 );
 
 $this->menu=array(
-	array('label'=>'List Personalinfo', 'url'=>array('index')),
+	array('label'=>'Employee List', 'url'=>array('index','data'=>'','type'=>'main','status'=>'')),
 	array('label'=>'Manage Personalinfo', 'url'=>array('admin')),
 );
 ?>

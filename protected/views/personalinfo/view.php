@@ -3,7 +3,7 @@
 /* @var $model Personalinfo */
 
 $this->breadcrumbs=array(
-	'Employee List'=>array('index','dept_id'=>''),
+	'Employee List'=>array('index','data'=>'','type'=>'main','status'=>''),
 	$model->first_name,
 );
 

@@ -3,7 +3,7 @@
 /* @var $model Personalinfo */
 
 $this->breadcrumbs=array(
-	'Personalinfos'=>array('index'),
+	'Employee Lists'=>array('index','data'=>'','type'=>'main','status'=>''),
 	$model->ID=>array('view','id'=>$model->ID),
 	'Update',
 );

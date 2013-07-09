@@ -45,6 +45,7 @@ class Personalinfo extends CActiveRecord
 		return array(
 			array('first_name, last_name, birthday, address, mobile_no, email, dept_id, educ_id, job_id', 'required'),
 			array('dept_id, educ_id, job_id', 'numerical', 'integerOnly'=>true),
+            array('email','email'),
 			array('first_name, last_name, email', 'length', 'max'=>128),
 			array('mobile_no', 'length', 'max'=>50),
 			// The following rule is used by search().
@@ -76,10 +77,10 @@ class Personalinfo extends CActiveRecord
 			'birthday' => 'Birthday',
 			'address' => 'Address',
 			'mobile_no' => 'Mobile No',
-			'email' => 'Email',
-			'dept_id' => 'Dept',
-			'educ_id' => 'Educ',
-			'job_id' => 'Job',
+			'email' => 'E-mail',
+			'dept_id' => 'Department Name',
+			'educ_id' => 'Education',
+			'job_id' => 'Job Position',
 		);
 	}
 
@@ -109,4 +110,5 @@ class Personalinfo extends CActiveRecord
 			'criteria'=>$criteria,
 		));
 	}
+    
 }

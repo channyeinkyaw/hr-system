@@ -3,7 +3,7 @@
 /* @var $dataProvider CActiveDataProvider */
 
 $this->breadcrumbs=array(
-    'Personal-info'=>array('/personalinfo/index','dept_id'=>''),
+    'Employee List'=>array('/personalinfo/index','data'=>'','type'=>'main','status'=>''),
     $_GET['name'],
 	'Educations',
 );

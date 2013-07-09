@@ -23,7 +23,7 @@
 <div class="container" id="page">
 
 	<div id="header">
-		<div id="logo" align="center"><?php echo '<font color=006699>'.CHtml::encode(Yii::app()->name).'</font>'; ?></div>
+		<div id="logo" align="center"><?php echo '<font color=darkgreen>'.CHtml::encode(Yii::app()->name).'</font>'; ?></div>
 	</div><!-- header -->
 
 	<div id="mainmenu">
@@ -54,8 +54,9 @@
                     'activateParents' => true,
                     'items'=>array(
                         array('label'=>'Home', 'url'=>array('/site/index')),
-                        array('label'=>'Employee List', 'url'=>array('/personalinfo','dept_id'=>'')),
+                        array('label'=>'Employee List', 'url'=>array('/personalinfo','data'=>'','type'=>'main','status'=>'')),
                         array('label'=>'Department List', 'url'=>array('/department')),
+                        array('label'=>'Job Type', 'url'=>array('/job')),
                         array('label'=>'Users','url'=>array('/users/index')),
                         array('label'=>'Logout ('.Yii::app()->user->name.')', 'url'=>array('/site/logout'))
                     ),
