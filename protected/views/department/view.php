@@ -19,11 +19,13 @@ $this->menu=array(
 
 <h1><?php echo $model->dept_name;?> Department</h1>
 
-<?php $this->widget('zii.widgets.CDetailView', array(
+<?php 
+    $this->widget('zii.widgets.CDetailView', array(
 	'data'=>$model,
 	'attributes'=>array(
 		'ID',
 		'dept_name',
 		'manager_name',
 	),
-)); ?>
+    )); 
+?>

@@ -16,9 +16,6 @@ else{
 	'Employee Lists',
 );
 }
-//$this->breadcrumbs=array(
-//	'Employee List',
-//);
 
 $this->menu=array(
     

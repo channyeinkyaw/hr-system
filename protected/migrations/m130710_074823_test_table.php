@@ -23,7 +23,6 @@ class m130710_074823_test_table extends CDbMigration
 	public function safeUp()
 	{
 	}
-
 	public function safeDown()
 	{
 	}
