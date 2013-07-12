@@ -1,7 +1,6 @@
 <?php
 /* @var $this PersonalinfoController */
 /* @var $model Personalinfo */
-
     $this->breadcrumbs=array(
         'Employee List'=>array('index','data'=>'','type'=>'main','status'=>''),
         'Create',
