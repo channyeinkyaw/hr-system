@@ -53,7 +53,7 @@ class Users extends CActiveRecord
             array('username', 'length', 'min' => 3, 'max'=>20),
             array('password', 'length', 'min' => 8, 'max'=>32, 'on' => 'register'),
                         array('password', 'compare', 'compareAttribute' => 'password_repeat'),
-            array('firstname, lastname, username, password, email', 'length', 'max'=>128),
+            array('firstname, lastname, username, password, password_repeat, email', 'length', 'max'=>128),
             array('cell', 'length', 'max'=>15),
                         array('password, password_repeat, cell','safe'),
             // The following rule is used by search().
