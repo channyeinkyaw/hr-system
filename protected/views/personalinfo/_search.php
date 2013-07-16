@@ -60,6 +60,11 @@
 		<?php echo $form->label($model,'job_id'); ?>
 		<?php echo $form->textField($model,'job_id'); ?>
 	</div>
+  
+    <div class="row">
+		<?php echo $form->label($model,'project_id'); ?>
+		<?php echo $form->textField($model,'project_id'); ?>
+	</div>
 
 	<div class="row buttons">
 		<?php echo CHtml::submitButton('Search'); ?>

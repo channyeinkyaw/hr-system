@@ -103,6 +103,16 @@
         ?>
 		<?php echo $form->error($model,'job_id'); ?>
 	</div>
+    
+    <div class="row">
+		<?php echo $form->labelEx($model,'project_id'); ?>
+		<?php //echo $form->textField($model,'job_id'); 
+              echo $form->dropDownList($model,'project_id',
+              CHtml::listData(Project::model()->findAll(array('order'=>'project_name ASC')),'ID', 'project_name')
+              ,array('empty'=>'--please select--'));
+        ?>
+		<?php echo $form->error($model,'job_id'); ?>
+	</div>
 
 	<div class="row buttons">
 		<?php echo CHtml::submitButton($model->isNewRecord ? 'Create' : 'Save'); ?>

@@ -43,14 +43,14 @@ class Personalinfo extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('first_name, last_name, birthday, address, mobile_no, email, dept_id, educ_id, job_id', 'required'),
-			array('dept_id, educ_id, job_id', 'numerical', 'integerOnly'=>true),
+			array('first_name, last_name, birthday, address, mobile_no, email, dept_id, educ_id, job_id, project_id', 'required'),
+			array('dept_id, educ_id, job_id, project_id', 'numerical', 'integerOnly'=>true),
             array('email','email'),
 			array('first_name, last_name, email', 'length', 'max'=>128),
 			array('mobile_no', 'length', 'max'=>50),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('ID, first_name, last_name, birthday, address, mobile_no, email, dept_id, educ_id, job_id', 'safe', 'on'=>'search'),
+			array('ID, first_name, last_name, birthday, address, mobile_no, email, dept_id, educ_id, job_id, project_id', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -81,6 +81,7 @@ class Personalinfo extends CActiveRecord
 			'dept_id' => 'Department Name',
 			'educ_id' => 'Education',
 			'job_id' => 'Job Position',
+            'project_id' => 'Project Name',
 		);
 	}
 
@@ -105,6 +106,7 @@ class Personalinfo extends CActiveRecord
 		$criteria->compare('dept_id',$this->dept_id);
 		$criteria->compare('educ_id',$this->educ_id);
 		$criteria->compare('job_id',$this->job_id);
+        $criteria->compare('project_id',$this->job_id);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,

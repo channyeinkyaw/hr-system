@@ -57,6 +57,7 @@
                         array('label'=>'Employee List', 'url'=>array('/personalinfo','data'=>'','type'=>'main','status'=>'')),
                         array('label'=>'Department List', 'url'=>array('/department')),
                         array('label'=>'Job Type', 'url'=>array('/job')),
+                        array('label'=>'Project', 'url'=>array('/project','id'=>'','name'=>'','status'=>'main')),
                         array('label'=>'Users','url'=>array('/users/index')),
                         array('label'=>'Logout ('.Yii::app()->user->name.')', 'url'=>array('/site/logout'))
                     ),
