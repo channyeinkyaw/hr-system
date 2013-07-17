@@ -3,7 +3,7 @@
 /* @var $model Project */
 
 $this->breadcrumbs=array(
-	'Projects'=>array('index'),
+	'Projects'=>array('index','id'=>'','name'=>'','status'=>'main'),
 	$model->ID,
 );
 

@@ -4,7 +4,7 @@
 
 if($_GET['status']=='main'){
   $this->breadcrumbs=array(
-	'Projects',);
+	'Projects');
 }
 else if($_GET['status']=='request'){
   $this->breadcrumbs=array(
