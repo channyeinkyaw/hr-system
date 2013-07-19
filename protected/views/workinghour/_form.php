@@ -17,10 +17,10 @@
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'personal_id'); ?>
-		<?php //echo $form->textField($model,'personal_id'); 
-          echo $form->dropDownList($model,'personal_id',
-          CHtml::listData(Personalinfo::model()->findAll(array('order'=>'first_name ASC')),'ID','last_name', 'first_name')
-          ,array('empty'=>'--please select--'));
+		<?php echo $form->textField($model,'personal_id',array('value'=>$_GET['id'],'size'=>5)); 
+//          echo $form->dropDownList($model,'personal_id',
+//          CHtml::listData(Personalinfo::model()->findAll(array('order'=>'first_name ASC')),'ID','ID', 'first_name')
+//          ,array('empty'=>'--please select--'));
         ?>
 		<?php echo $form->error($model,'personal_id'); ?>
 	</div>
@@ -45,7 +45,7 @@
                 'showButtonPanel' => true,      // show button panel
             ),
             'htmlOptions' => array(
-                'size' => '10',
+                'size' => '15',
                 'maxlength' => '10',
             ),
         ));
@@ -55,13 +55,41 @@
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'start_time'); ?>
-		<?php echo $form->textField($model,'start_time'); ?>
+		<?php //echo $form->textField($model,'start_time'); 
+//          $this->widget('application.extensions.jui_timepicker.JTimePicker', array(
+//          'model'=>$model,
+//          'attribute'=>'start_time',
+//          // additional javascript options for the date picker plugin
+//          'options'=>array('showPeriod'=>true,),
+//          'htmlOptions'=>array('size'=>8,'maxlength'=>8 ),
+//          ));
+        
+            /*Yii Extension of EJuiTimePicker*/
+            $this->widget( 'ext.EJuiTimePicker.EJuiTimePicker', array(
+            'model' => $model, // Your model
+            'attribute' => 'start_time', // Attribute for input
+            ));
+        ?>
 		<?php echo $form->error($model,'start_time'); ?>
 	</div>
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'end_time'); ?>
-		<?php echo $form->textField($model,'end_time'); ?>
+		<?php //echo $form->textField($model,'end_time'); 
+//          $this->widget('application.extensions.jui_timepicker.JTimePicker', array(
+//          'model'=>$model,
+//          'attribute'=>'end_time',
+//          // additional javascript options for the date picker plugin
+//          'options'=>array('showPeriod'=>true,),
+//          'htmlOptions'=>array('size'=>8,'maxlength'=>8 ),
+//          ));
+        
+            /*Yii Extension of EJuiTimePicker*/
+            $this->widget( 'ext.EJuiTimePicker.EJuiTimePicker', array(
+            'model' => $model, // Your model
+            'attribute' => 'end_time', // Attribute for input
+            ));
+        ?>
 		<?php echo $form->error($model,'end_time'); ?>
 	</div>
 

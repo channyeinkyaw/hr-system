@@ -13,6 +13,7 @@ $this->menu=array(
     array('label'=>'View Education', 'url'=>array('/Education','id'=>$model->educ_id,'name'=>$model->first_name)),
     array('label'=>'View Project History', 'url'=>array('/Project','id'=>$model->project_id,'name'=>$model->first_name,'status'=>'request')),
     array('label'=>'View Career History', 'url'=>array('')),
+    array('label'=>'Add Working Hour', 'url'=>array('/Workinghour/create','id'=>$model->ID)),
 	array('label'=>'Update Personal Info', 'url'=>array('update', 'id'=>$model->ID)),
 //    array('label'=>'Search Personal Info', 'url'=>array('_search')),
 	array('label'=>'Delete Personal Info', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->ID),'confirm'=>'Are you sure you want to delete this item?')),

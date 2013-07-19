@@ -79,6 +79,35 @@ return array(
 				*/
 			),
 		),
+        
+        /*TimePicker Data*/
+        'widgetFactory' => array(
+        'widgets' => array(
+          'EJuiTimePicker' => array(
+            'options' => array(
+//              'dateFormat' => 'yy-mm-dd',
+//              'showOn' => 'both',
+//              'buttonText' => 'Open calendar',
+              // Any other option from http://jqueryui.com/demos/datepicker/
+              // Or http://trentrichardson.com/examples/timepicker/
+            ),
+            'timeOptions' => array(
+              'showOn' => 'focus',
+            ),
+            'htmlOptions' => array(
+              'autocomplete' => 'off',
+              'size' => 10,
+              'maxlength' => 10,
+            ),
+            'timeHtmlOptions' => array(
+              'size' => 5,
+              'maxlength' => 5,
+            ),
+//            'language' => 'en',
+            'mode' => 'time',
+            ),
+          ),
+        ),
 	),
 
 	// application-level parameters that can be accessed

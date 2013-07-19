@@ -64,7 +64,7 @@ class WorkingHour extends CActiveRecord
 	{
 		return array(
 			'ID' => 'ID',
-			'personal_id' => 'Employee Name',
+			'personal_id' => 'Employee ID',
 			'working_date' => 'Working Date',
 			'start_time' => 'Start Time',
 			'end_time' => 'End Time',
