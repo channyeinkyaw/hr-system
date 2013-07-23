@@ -59,6 +59,7 @@
                         array('label'=>'Job Type', 'url'=>array('/job')),
                         array('label'=>'Project', 'url'=>array('/project','id'=>'','name'=>'','status'=>'main')),
                         array('label'=>'Working Hour', 'url'=>array('/workinghour')),
+                        array('label'=>'Standard Hour', 'url'=>array('/standardHour')),
                         array('label'=>'Users','url'=>array('/users/index')),
                         array('label'=>'Logout ('.Yii::app()->user->name.')', 'url'=>array('/site/logout'))
                     ),

@@ -17,7 +17,16 @@
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'personal_id'); ?>
-		<?php echo $form->textField($model,'personal_id',array('value'=>$_GET['id'],'size'=>5)); 
+		<?php 
+          if(isset($_GET['id'])){
+            echo $form->textField($model,'personal_id',array('value'=>$_GET['id'],'size'=>5,'readonly' => true)); 
+          }
+          else{
+            echo $form->dropDownList($model,'personal_id',
+            CHtml::listData(Personalinfo::model()->findAll(array('order'=>'first_name ASC')),'ID','ID', 'first_name')
+            ,array('empty'=>'--please select--'));
+          }
+//            echo $form->textField($model,'personal_id',array('value'=>$_GET['id'],'size'=>5,'readonly' => true)); 
 //          echo $form->dropDownList($model,'personal_id',
 //          CHtml::listData(Personalinfo::model()->findAll(array('order'=>'first_name ASC')),'ID','ID', 'first_name')
 //          ,array('empty'=>'--please select--'));
