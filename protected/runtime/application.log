@@ -4566,3 +4566,29 @@ Stack trace:
 REQUEST_URI=/HR/index.php/standardHour/admin
 HTTP_REFERER=http://localhost/HR/index.php/standardHour
 ---
+2013/07/29 02:25:48 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hr.workinghour' doesn't exist. The SQL statement executed was: SELECT *
+FROM `workinghour`.
+in /Applications/XAMPP/xamppfiles/htdocs/HR/protected/views/site/pages/overtime.php (15)
+in /Applications/XAMPP/xamppfiles/htdocs/HR/index.php (13)
+2013/07/29 02:25:48 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hr.workinghour' doesn't exist. The SQL statement executed was: SELECT *
+FROM `workinghour`' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/db/CDbCommand.php:541
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/db/CDbCommand.php(395): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/HR/protected/views/site/pages/overtime.php(15): CDbCommand->queryAll()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/X...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', NULL, true)
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/X...', NULL, true)
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): CController->renderPartial('pages/overtime', NULL, true)
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CViewAction.php(140): CController->render('pages/overtime')
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CAction.php(76): CViewAction->run()
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CAction->runWithParams(Array)
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CViewAction))
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('page')
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/page')
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#14 /Applications/XAMPP/xamppfiles/htdocs/HR/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/HR/index.php?r=site/page&view=overtime
+HTTP_REFERER=http://localhost/HR/index.php?r=workinghour
+---
