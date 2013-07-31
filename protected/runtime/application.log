@@ -4592,3 +4592,1569 @@ Stack trace:
 REQUEST_URI=/HR/index.php?r=site/page&view=overtime
 HTTP_REFERER=http://localhost/HR/index.php?r=workinghour
 ---
+2013/07/31 04:19:16 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'form working_hour' at line 1. The SQL statement executed was: select * form working_hour.
+in /Applications/XAMPP/xamppfiles/htdocs/HR/protected/views/site/pages/overtime.php (27)
+in /Applications/XAMPP/xamppfiles/htdocs/HR/index.php (13)
+2013/07/31 04:19:16 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'form working_hour' at line 1. The SQL statement executed was: select * form working_hour' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/db/CDbCommand.php:541
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/db/CDbCommand.php(395): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/HR/protected/views/site/pages/overtime.php(27): CDbCommand->queryAll()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/X...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', NULL, true)
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/X...', NULL, true)
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): CController->renderPartial('pages/overtime', NULL, true)
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CViewAction.php(140): CController->render('pages/overtime')
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CAction.php(76): CViewAction->run()
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CAction->runWithParams(Array)
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CViewAction))
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('page')
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/page')
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#14 /Applications/XAMPP/xamppfiles/htdocs/HR/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/HR/index.php?r=site/page&view=overtime
+HTTP_REFERER=http://localhost/HR/index.php
+---
+2013/07/31 04:19:33 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'form working_hour' at line 1. The SQL statement executed was: select * form working_hour.
+in /Applications/XAMPP/xamppfiles/htdocs/HR/protected/views/site/pages/overtime.php (27)
+in /Applications/XAMPP/xamppfiles/htdocs/HR/index.php (13)
+2013/07/31 04:19:33 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'form working_hour' at line 1. The SQL statement executed was: select * form working_hour' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/db/CDbCommand.php:541
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/db/CDbCommand.php(395): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/HR/protected/views/site/pages/overtime.php(27): CDbCommand->queryAll()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/X...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', NULL, true)
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/X...', NULL, true)
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): CController->renderPartial('pages/overtime', NULL, true)
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CViewAction.php(140): CController->render('pages/overtime')
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CAction.php(76): CViewAction->run()
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CAction->runWithParams(Array)
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CViewAction))
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('page')
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/page')
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#14 /Applications/XAMPP/xamppfiles/htdocs/HR/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/HR/index.php?r=site/page&view=overtime
+HTTP_REFERER=http://localhost/HR/index.php
+---
+2013/07/31 04:19:35 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'form working_hour' at line 1. The SQL statement executed was: select * form working_hour.
+in /Applications/XAMPP/xamppfiles/htdocs/HR/protected/views/site/pages/overtime.php (27)
+in /Applications/XAMPP/xamppfiles/htdocs/HR/index.php (13)
+2013/07/31 04:19:35 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'form working_hour' at line 1. The SQL statement executed was: select * form working_hour' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/db/CDbCommand.php:541
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/db/CDbCommand.php(395): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/HR/protected/views/site/pages/overtime.php(27): CDbCommand->queryAll()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/X...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', NULL, true)
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/X...', NULL, true)
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): CController->renderPartial('pages/overtime', NULL, true)
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CViewAction.php(140): CController->render('pages/overtime')
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CAction.php(76): CViewAction->run()
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CAction->runWithParams(Array)
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CViewAction))
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('page')
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/page')
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#14 /Applications/XAMPP/xamppfiles/htdocs/HR/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/HR/index.php?r=site/page&view=overtime
+HTTP_REFERER=http://localhost/HR/index.php
+---
+2013/07/31 04:20:32 [error] [exception.CException] exception 'CException' with message 'Property "CDataColumn.0" is not defined.' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/YiiBase.php(220): CComponent->__set('0', 'header???=> ???...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/grid/CGridView.php(363): YiiBase::createComponent(Array, Object(CGridView))
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/grid/CGridView.php(334): CGridView->initColumns()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(147): CGridView->init()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(172): CBaseController->createWidget('zii.widgets.gri...', Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/HR/protected/views/site/pages/overtime.php(54): CBaseController->widget('zii.widgets.gri...', Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/X...')
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', NULL, true)
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/X...', NULL, true)
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): CController->renderPartial('pages/overtime', NULL, true)
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CViewAction.php(140): CController->render('pages/overtime')
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CAction.php(76): CViewAction->run()
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CAction->runWithParams(Array)
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CViewAction))
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#15 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('page')
+#16 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/page')
+#17 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#18 /Applications/XAMPP/xamppfiles/htdocs/HR/index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/HR/index.php?r=site/page&view=overtime
+HTTP_REFERER=http://localhost/HR/index.php
+---
+2013/07/31 04:20:33 [error] [exception.CException] exception 'CException' with message 'Property "CDataColumn.0" is not defined.' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/YiiBase.php(220): CComponent->__set('0', 'header???=> ???...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/grid/CGridView.php(363): YiiBase::createComponent(Array, Object(CGridView))
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/grid/CGridView.php(334): CGridView->initColumns()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(147): CGridView->init()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(172): CBaseController->createWidget('zii.widgets.gri...', Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/HR/protected/views/site/pages/overtime.php(54): CBaseController->widget('zii.widgets.gri...', Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/X...')
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', NULL, true)
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/X...', NULL, true)
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): CController->renderPartial('pages/overtime', NULL, true)
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CViewAction.php(140): CController->render('pages/overtime')
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CAction.php(76): CViewAction->run()
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CAction->runWithParams(Array)
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CViewAction))
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#15 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('page')
+#16 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/page')
+#17 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#18 /Applications/XAMPP/xamppfiles/htdocs/HR/index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/HR/index.php?r=site/page&view=overtime
+HTTP_REFERER=http://localhost/HR/index.php
+---
+2013/07/31 04:21:12 [error] [exception.CException] exception 'CException' with message 'Property "CDataColumn.0" is not defined.' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/YiiBase.php(220): CComponent->__set('0', 'header???=> ???...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/grid/CGridView.php(363): YiiBase::createComponent(Array, Object(CGridView))
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/grid/CGridView.php(334): CGridView->initColumns()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(147): CGridView->init()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(172): CBaseController->createWidget('zii.widgets.gri...', Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/HR/protected/views/site/pages/overtime.php(54): CBaseController->widget('zii.widgets.gri...', Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/X...')
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', NULL, true)
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/X...', NULL, true)
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): CController->renderPartial('pages/overtime', NULL, true)
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CViewAction.php(140): CController->render('pages/overtime')
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CAction.php(76): CViewAction->run()
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CAction->runWithParams(Array)
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CViewAction))
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#15 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('page')
+#16 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/page')
+#17 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#18 /Applications/XAMPP/xamppfiles/htdocs/HR/index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/HR/index.php?r=site/page&view=overtime
+HTTP_REFERER=http://localhost/HR/index.php
+---
+2013/07/31 04:21:40 [error] [exception.CException] exception 'CException' with message 'Property "CDataColumn.0" is not defined.' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/YiiBase.php(220): CComponent->__set('0', 'header???=> ???...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/grid/CGridView.php(363): YiiBase::createComponent(Array, Object(CGridView))
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/grid/CGridView.php(334): CGridView->initColumns()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(147): CGridView->init()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(172): CBaseController->createWidget('zii.widgets.gri...', Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/HR/protected/views/site/pages/overtime.php(54): CBaseController->widget('zii.widgets.gri...', Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/X...')
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', NULL, true)
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/X...', NULL, true)
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): CController->renderPartial('pages/overtime', NULL, true)
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CViewAction.php(140): CController->render('pages/overtime')
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CAction.php(76): CViewAction->run()
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CAction->runWithParams(Array)
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CViewAction))
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#15 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('page')
+#16 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/page')
+#17 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#18 /Applications/XAMPP/xamppfiles/htdocs/HR/index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/HR/index.php?r=site/page&view=overtime
+HTTP_REFERER=http://localhost/HR/index.php
+---
+2013/07/31 04:21:40 [error] [exception.CException] exception 'CException' with message 'Property "CDataColumn.0" is not defined.' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/YiiBase.php(220): CComponent->__set('0', 'header???=> ???...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/grid/CGridView.php(363): YiiBase::createComponent(Array, Object(CGridView))
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/grid/CGridView.php(334): CGridView->initColumns()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(147): CGridView->init()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(172): CBaseController->createWidget('zii.widgets.gri...', Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/HR/protected/views/site/pages/overtime.php(54): CBaseController->widget('zii.widgets.gri...', Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/X...')
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', NULL, true)
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/X...', NULL, true)
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): CController->renderPartial('pages/overtime', NULL, true)
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CViewAction.php(140): CController->render('pages/overtime')
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CAction.php(76): CViewAction->run()
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CAction->runWithParams(Array)
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CViewAction))
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#15 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('page')
+#16 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/page')
+#17 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#18 /Applications/XAMPP/xamppfiles/htdocs/HR/index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/HR/index.php?r=site/page&view=overtime
+HTTP_REFERER=http://localhost/HR/index.php
+---
+2013/07/31 04:21:41 [error] [exception.CException] exception 'CException' with message 'Property "CDataColumn.0" is not defined.' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/YiiBase.php(220): CComponent->__set('0', 'header???=> ???...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/grid/CGridView.php(363): YiiBase::createComponent(Array, Object(CGridView))
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/grid/CGridView.php(334): CGridView->initColumns()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(147): CGridView->init()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(172): CBaseController->createWidget('zii.widgets.gri...', Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/HR/protected/views/site/pages/overtime.php(54): CBaseController->widget('zii.widgets.gri...', Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/X...')
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', NULL, true)
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/X...', NULL, true)
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): CController->renderPartial('pages/overtime', NULL, true)
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CViewAction.php(140): CController->render('pages/overtime')
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CAction.php(76): CViewAction->run()
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CAction->runWithParams(Array)
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CViewAction))
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#15 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('page')
+#16 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/page')
+#17 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#18 /Applications/XAMPP/xamppfiles/htdocs/HR/index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/HR/index.php?r=site/page&view=overtime
+HTTP_REFERER=http://localhost/HR/index.php
+---
+2013/07/31 04:21:41 [error] [exception.CException] exception 'CException' with message 'Property "CDataColumn.0" is not defined.' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/YiiBase.php(220): CComponent->__set('0', 'header???=> ???...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/grid/CGridView.php(363): YiiBase::createComponent(Array, Object(CGridView))
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/grid/CGridView.php(334): CGridView->initColumns()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(147): CGridView->init()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(172): CBaseController->createWidget('zii.widgets.gri...', Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/HR/protected/views/site/pages/overtime.php(54): CBaseController->widget('zii.widgets.gri...', Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/X...')
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', NULL, true)
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/X...', NULL, true)
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): CController->renderPartial('pages/overtime', NULL, true)
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CViewAction.php(140): CController->render('pages/overtime')
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CAction.php(76): CViewAction->run()
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CAction->runWithParams(Array)
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CViewAction))
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#15 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('page')
+#16 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/page')
+#17 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#18 /Applications/XAMPP/xamppfiles/htdocs/HR/index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/HR/index.php?r=site/page&view=overtime
+HTTP_REFERER=http://localhost/HR/index.php
+---
+2013/07/31 04:25:08 [error] [exception.CException] exception 'CException' with message 'Property "CDataColumn.0" is not defined.' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/YiiBase.php(220): CComponent->__set('0', Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/grid/CGridView.php(363): YiiBase::createComponent(Array, Object(CGridView))
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/grid/CGridView.php(334): CGridView->initColumns()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(147): CGridView->init()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(172): CBaseController->createWidget('zii.widgets.gri...', Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/HR/protected/views/site/pages/overtime.php(59): CBaseController->widget('zii.widgets.gri...', Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/X...')
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', NULL, true)
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/X...', NULL, true)
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): CController->renderPartial('pages/overtime', NULL, true)
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CViewAction.php(140): CController->render('pages/overtime')
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CAction.php(76): CViewAction->run()
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CAction->runWithParams(Array)
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CViewAction))
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#15 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('page')
+#16 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/page')
+#17 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#18 /Applications/XAMPP/xamppfiles/htdocs/HR/index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/HR/index.php?r=site/page&view=overtime
+HTTP_REFERER=http://localhost/HR/index.php
+---
+2013/07/31 04:25:33 [error] [exception.CException] exception 'CException' with message 'Property "CDataColumn.0" is not defined.' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/YiiBase.php(220): CComponent->__set('0', Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/grid/CGridView.php(363): YiiBase::createComponent(Array, Object(CGridView))
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/grid/CGridView.php(334): CGridView->initColumns()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(147): CGridView->init()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(172): CBaseController->createWidget('zii.widgets.gri...', Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/HR/protected/views/site/pages/overtime.php(59): CBaseController->widget('zii.widgets.gri...', Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/X...')
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', NULL, true)
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/X...', NULL, true)
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): CController->renderPartial('pages/overtime', NULL, true)
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CViewAction.php(140): CController->render('pages/overtime')
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CAction.php(76): CViewAction->run()
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CAction->runWithParams(Array)
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CViewAction))
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#15 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('page')
+#16 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/page')
+#17 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#18 /Applications/XAMPP/xamppfiles/htdocs/HR/index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/HR/index.php?r=site/page&view=overtime
+HTTP_REFERER=http://localhost/HR/index.php
+---
+2013/07/31 04:25:33 [error] [exception.CException] exception 'CException' with message 'Property "CDataColumn.0" is not defined.' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/YiiBase.php(220): CComponent->__set('0', Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/grid/CGridView.php(363): YiiBase::createComponent(Array, Object(CGridView))
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/grid/CGridView.php(334): CGridView->initColumns()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(147): CGridView->init()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(172): CBaseController->createWidget('zii.widgets.gri...', Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/HR/protected/views/site/pages/overtime.php(59): CBaseController->widget('zii.widgets.gri...', Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/X...')
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', NULL, true)
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/X...', NULL, true)
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): CController->renderPartial('pages/overtime', NULL, true)
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CViewAction.php(140): CController->render('pages/overtime')
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CAction.php(76): CViewAction->run()
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CAction->runWithParams(Array)
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CViewAction))
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#15 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('page')
+#16 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/page')
+#17 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#18 /Applications/XAMPP/xamppfiles/htdocs/HR/index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/HR/index.php?r=site/page&view=overtime
+HTTP_REFERER=http://localhost/HR/index.php
+---
+2013/07/31 04:25:34 [error] [exception.CException] exception 'CException' with message 'Property "CDataColumn.0" is not defined.' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/YiiBase.php(220): CComponent->__set('0', Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/grid/CGridView.php(363): YiiBase::createComponent(Array, Object(CGridView))
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/grid/CGridView.php(334): CGridView->initColumns()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(147): CGridView->init()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(172): CBaseController->createWidget('zii.widgets.gri...', Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/HR/protected/views/site/pages/overtime.php(59): CBaseController->widget('zii.widgets.gri...', Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/X...')
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', NULL, true)
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/X...', NULL, true)
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): CController->renderPartial('pages/overtime', NULL, true)
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CViewAction.php(140): CController->render('pages/overtime')
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CAction.php(76): CViewAction->run()
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CAction->runWithParams(Array)
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CViewAction))
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#15 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('page')
+#16 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/page')
+#17 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#18 /Applications/XAMPP/xamppfiles/htdocs/HR/index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/HR/index.php?r=site/page&view=overtime
+HTTP_REFERER=http://localhost/HR/index.php
+---
+2013/07/31 04:25:34 [error] [exception.CException] exception 'CException' with message 'Property "CDataColumn.0" is not defined.' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/YiiBase.php(220): CComponent->__set('0', Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/grid/CGridView.php(363): YiiBase::createComponent(Array, Object(CGridView))
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/grid/CGridView.php(334): CGridView->initColumns()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(147): CGridView->init()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(172): CBaseController->createWidget('zii.widgets.gri...', Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/HR/protected/views/site/pages/overtime.php(59): CBaseController->widget('zii.widgets.gri...', Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/X...')
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', NULL, true)
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/X...', NULL, true)
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): CController->renderPartial('pages/overtime', NULL, true)
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CViewAction.php(140): CController->render('pages/overtime')
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CAction.php(76): CViewAction->run()
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CAction->runWithParams(Array)
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CViewAction))
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#15 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('page')
+#16 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/page')
+#17 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#18 /Applications/XAMPP/xamppfiles/htdocs/HR/index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/HR/index.php?r=site/page&view=overtime
+HTTP_REFERER=http://localhost/HR/index.php
+---
+2013/07/31 04:26:38 [error] [exception.CException] exception 'CException' with message 'Property "CDataColumn.0" is not defined.' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/YiiBase.php(220): CComponent->__set('0', 'working_date')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/grid/CGridView.php(363): YiiBase::createComponent(Array, Object(CGridView))
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/grid/CGridView.php(334): CGridView->initColumns()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(147): CGridView->init()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(172): CBaseController->createWidget('zii.widgets.gri...', Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/HR/protected/views/site/pages/overtime.php(55): CBaseController->widget('zii.widgets.gri...', Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/X...')
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', NULL, true)
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/X...', NULL, true)
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): CController->renderPartial('pages/overtime', NULL, true)
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CViewAction.php(140): CController->render('pages/overtime')
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CAction.php(76): CViewAction->run()
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CAction->runWithParams(Array)
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CViewAction))
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#15 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('page')
+#16 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/page')
+#17 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#18 /Applications/XAMPP/xamppfiles/htdocs/HR/index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/HR/index.php?r=site/page&view=overtime
+HTTP_REFERER=http://localhost/HR/index.php
+---
+2013/07/31 04:26:38 [error] [exception.CException] exception 'CException' with message 'Property "CDataColumn.0" is not defined.' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/YiiBase.php(220): CComponent->__set('0', 'working_date')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/grid/CGridView.php(363): YiiBase::createComponent(Array, Object(CGridView))
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/grid/CGridView.php(334): CGridView->initColumns()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(147): CGridView->init()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(172): CBaseController->createWidget('zii.widgets.gri...', Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/HR/protected/views/site/pages/overtime.php(55): CBaseController->widget('zii.widgets.gri...', Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/X...')
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', NULL, true)
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/X...', NULL, true)
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): CController->renderPartial('pages/overtime', NULL, true)
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CViewAction.php(140): CController->render('pages/overtime')
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CAction.php(76): CViewAction->run()
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CAction->runWithParams(Array)
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CViewAction))
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#15 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('page')
+#16 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/page')
+#17 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#18 /Applications/XAMPP/xamppfiles/htdocs/HR/index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/HR/index.php?r=site/page&view=overtime
+HTTP_REFERER=http://localhost/HR/index.php
+---
+2013/07/31 04:28:15 [error] [exception.CException] exception 'CException' with message 'Property "CDataColumn.0" is not defined.' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/YiiBase.php(220): CComponent->__set('0', 'woking_hour')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/grid/CGridView.php(363): YiiBase::createComponent(Array, Object(CGridView))
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/grid/CGridView.php(334): CGridView->initColumns()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(147): CGridView->init()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(172): CBaseController->createWidget('zii.widgets.gri...', Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/HR/protected/views/site/pages/overtime.php(55): CBaseController->widget('zii.widgets.gri...', Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/X...')
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', NULL, true)
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/X...', NULL, true)
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): CController->renderPartial('pages/overtime', NULL, true)
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CViewAction.php(140): CController->render('pages/overtime')
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CAction.php(76): CViewAction->run()
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CAction->runWithParams(Array)
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CViewAction))
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#15 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('page')
+#16 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/page')
+#17 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#18 /Applications/XAMPP/xamppfiles/htdocs/HR/index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/HR/index.php?r=site/page&view=overtime
+HTTP_REFERER=http://localhost/HR/index.php
+---
+2013/07/31 04:43:29 [error] [exception.CException] exception 'CException' with message 'Property "CDataColumn.0" is not defined.' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/YiiBase.php(220): CComponent->__set('0', Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/grid/CGridView.php(363): YiiBase::createComponent(Array, Object(CGridView))
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/grid/CGridView.php(334): CGridView->initColumns()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(147): CGridView->init()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(172): CBaseController->createWidget('zii.widgets.gri...', Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/HR/protected/views/site/pages/overtime.php(61): CBaseController->widget('zii.widgets.gri...', Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/X...')
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', NULL, true)
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/X...', NULL, true)
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): CController->renderPartial('pages/overtime', NULL, true)
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CViewAction.php(140): CController->render('pages/overtime')
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CAction.php(76): CViewAction->run()
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CAction->runWithParams(Array)
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CViewAction))
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#15 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('page')
+#16 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/page')
+#17 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#18 /Applications/XAMPP/xamppfiles/htdocs/HR/index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/HR/index.php?r=site/page&view=overtime
+HTTP_REFERER=http://localhost/HR/index.php
+---
+2013/07/31 04:43:29 [error] [exception.CException] exception 'CException' with message 'Property "CDataColumn.0" is not defined.' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/YiiBase.php(220): CComponent->__set('0', Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/grid/CGridView.php(363): YiiBase::createComponent(Array, Object(CGridView))
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/grid/CGridView.php(334): CGridView->initColumns()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(147): CGridView->init()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(172): CBaseController->createWidget('zii.widgets.gri...', Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/HR/protected/views/site/pages/overtime.php(61): CBaseController->widget('zii.widgets.gri...', Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/X...')
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', NULL, true)
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/X...', NULL, true)
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): CController->renderPartial('pages/overtime', NULL, true)
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CViewAction.php(140): CController->render('pages/overtime')
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CAction.php(76): CViewAction->run()
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CAction->runWithParams(Array)
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CViewAction))
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#15 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('page')
+#16 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/page')
+#17 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#18 /Applications/XAMPP/xamppfiles/htdocs/HR/index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/HR/index.php?r=site/page&view=overtime
+HTTP_REFERER=http://localhost/HR/index.php
+---
+2013/07/31 04:43:50 [error] [exception.CException] exception 'CException' with message 'Property "CDataColumn.0" is not defined.' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/YiiBase.php(220): CComponent->__set('0', Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/grid/CGridView.php(363): YiiBase::createComponent(Array, Object(CGridView))
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/grid/CGridView.php(334): CGridView->initColumns()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(147): CGridView->init()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(172): CBaseController->createWidget('zii.widgets.gri...', Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/HR/protected/views/site/pages/overtime.php(50): CBaseController->widget('zii.widgets.gri...', Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/X...')
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', NULL, true)
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/X...', NULL, true)
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): CController->renderPartial('pages/overtime', NULL, true)
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CViewAction.php(140): CController->render('pages/overtime')
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CAction.php(76): CViewAction->run()
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CAction->runWithParams(Array)
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CViewAction))
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#15 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('page')
+#16 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/page')
+#17 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#18 /Applications/XAMPP/xamppfiles/htdocs/HR/index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/HR/index.php?r=site/page&view=overtime
+HTTP_REFERER=http://localhost/HR/index.php
+---
+2013/07/31 04:43:50 [error] [exception.CException] exception 'CException' with message 'Property "CDataColumn.0" is not defined.' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/YiiBase.php(220): CComponent->__set('0', Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/grid/CGridView.php(363): YiiBase::createComponent(Array, Object(CGridView))
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/grid/CGridView.php(334): CGridView->initColumns()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(147): CGridView->init()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(172): CBaseController->createWidget('zii.widgets.gri...', Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/HR/protected/views/site/pages/overtime.php(50): CBaseController->widget('zii.widgets.gri...', Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/X...')
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', NULL, true)
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/X...', NULL, true)
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): CController->renderPartial('pages/overtime', NULL, true)
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CViewAction.php(140): CController->render('pages/overtime')
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CAction.php(76): CViewAction->run()
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CAction->runWithParams(Array)
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CViewAction))
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#15 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('page')
+#16 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/page')
+#17 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#18 /Applications/XAMPP/xamppfiles/htdocs/HR/index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/HR/index.php?r=site/page&view=overtime
+HTTP_REFERER=http://localhost/HR/index.php
+---
+2013/07/31 04:43:51 [error] [exception.CException] exception 'CException' with message 'Property "CDataColumn.0" is not defined.' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/YiiBase.php(220): CComponent->__set('0', Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/grid/CGridView.php(363): YiiBase::createComponent(Array, Object(CGridView))
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/grid/CGridView.php(334): CGridView->initColumns()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(147): CGridView->init()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(172): CBaseController->createWidget('zii.widgets.gri...', Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/HR/protected/views/site/pages/overtime.php(50): CBaseController->widget('zii.widgets.gri...', Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/X...')
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', NULL, true)
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/X...', NULL, true)
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): CController->renderPartial('pages/overtime', NULL, true)
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CViewAction.php(140): CController->render('pages/overtime')
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CAction.php(76): CViewAction->run()
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CAction->runWithParams(Array)
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CViewAction))
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#15 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('page')
+#16 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/page')
+#17 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#18 /Applications/XAMPP/xamppfiles/htdocs/HR/index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/HR/index.php?r=site/page&view=overtime
+HTTP_REFERER=http://localhost/HR/index.php
+---
+2013/07/31 04:45:07 [error] [exception.CException] exception 'CException' with message 'Property "CDataColumn.0" is not defined.' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/YiiBase.php(220): CComponent->__set('0', 'id')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/grid/CGridView.php(363): YiiBase::createComponent(Array, Object(CGridView))
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/grid/CGridView.php(334): CGridView->initColumns()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(147): CGridView->init()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(172): CBaseController->createWidget('zii.widgets.gri...', Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/HR/protected/views/site/pages/overtime.php(63): CBaseController->widget('zii.widgets.gri...', Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/X...')
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', NULL, true)
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/X...', NULL, true)
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): CController->renderPartial('pages/overtime', NULL, true)
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CViewAction.php(140): CController->render('pages/overtime')
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CAction.php(76): CViewAction->run()
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CAction->runWithParams(Array)
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CViewAction))
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#15 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('page')
+#16 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/page')
+#17 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#18 /Applications/XAMPP/xamppfiles/htdocs/HR/index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/HR/index.php?r=site/page&view=overtime
+HTTP_REFERER=http://localhost/HR/index.php
+---
+2013/07/31 04:45:08 [error] [exception.CException] exception 'CException' with message 'Property "CDataColumn.0" is not defined.' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/YiiBase.php(220): CComponent->__set('0', 'id')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/grid/CGridView.php(363): YiiBase::createComponent(Array, Object(CGridView))
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/grid/CGridView.php(334): CGridView->initColumns()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(147): CGridView->init()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(172): CBaseController->createWidget('zii.widgets.gri...', Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/HR/protected/views/site/pages/overtime.php(63): CBaseController->widget('zii.widgets.gri...', Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/X...')
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', NULL, true)
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/X...', NULL, true)
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): CController->renderPartial('pages/overtime', NULL, true)
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CViewAction.php(140): CController->render('pages/overtime')
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CAction.php(76): CViewAction->run()
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CAction->runWithParams(Array)
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CViewAction))
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#15 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('page')
+#16 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/page')
+#17 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#18 /Applications/XAMPP/xamppfiles/htdocs/HR/index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/HR/index.php?r=site/page&view=overtime
+HTTP_REFERER=http://localhost/HR/index.php
+---
+2013/07/31 04:45:15 [error] [exception.CException] exception 'CException' with message 'Property "CDataColumn.0" is not defined.' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/YiiBase.php(220): CComponent->__set('0', 'id')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/grid/CGridView.php(363): YiiBase::createComponent(Array, Object(CGridView))
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/grid/CGridView.php(334): CGridView->initColumns()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(147): CGridView->init()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(172): CBaseController->createWidget('zii.widgets.gri...', Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/HR/protected/views/site/pages/overtime.php(63): CBaseController->widget('zii.widgets.gri...', Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/X...')
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', NULL, true)
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/X...', NULL, true)
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): CController->renderPartial('pages/overtime', NULL, true)
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CViewAction.php(140): CController->render('pages/overtime')
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CAction.php(76): CViewAction->run()
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CAction->runWithParams(Array)
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CViewAction))
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#15 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('page')
+#16 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/page')
+#17 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#18 /Applications/XAMPP/xamppfiles/htdocs/HR/index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/HR/index.php?r=site/page&view=overtime
+HTTP_REFERER=http://localhost/HR/index.php
+---
+2013/07/31 04:45:15 [error] [exception.CException] exception 'CException' with message 'Property "CDataColumn.0" is not defined.' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/YiiBase.php(220): CComponent->__set('0', 'id')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/grid/CGridView.php(363): YiiBase::createComponent(Array, Object(CGridView))
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/grid/CGridView.php(334): CGridView->initColumns()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(147): CGridView->init()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(172): CBaseController->createWidget('zii.widgets.gri...', Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/HR/protected/views/site/pages/overtime.php(63): CBaseController->widget('zii.widgets.gri...', Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/X...')
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', NULL, true)
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/X...', NULL, true)
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): CController->renderPartial('pages/overtime', NULL, true)
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CViewAction.php(140): CController->render('pages/overtime')
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CAction.php(76): CViewAction->run()
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CAction->runWithParams(Array)
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CViewAction))
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#15 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('page')
+#16 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/page')
+#17 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#18 /Applications/XAMPP/xamppfiles/htdocs/HR/index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/HR/index.php?r=site/page&view=overtime
+HTTP_REFERER=http://localhost/HR/index.php
+---
+2013/07/31 04:45:16 [error] [exception.CException] exception 'CException' with message 'Property "CDataColumn.0" is not defined.' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/YiiBase.php(220): CComponent->__set('0', 'id')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/grid/CGridView.php(363): YiiBase::createComponent(Array, Object(CGridView))
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/grid/CGridView.php(334): CGridView->initColumns()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(147): CGridView->init()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(172): CBaseController->createWidget('zii.widgets.gri...', Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/HR/protected/views/site/pages/overtime.php(63): CBaseController->widget('zii.widgets.gri...', Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/X...')
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', NULL, true)
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/X...', NULL, true)
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): CController->renderPartial('pages/overtime', NULL, true)
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CViewAction.php(140): CController->render('pages/overtime')
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CAction.php(76): CViewAction->run()
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CAction->runWithParams(Array)
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CViewAction))
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#15 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('page')
+#16 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/page')
+#17 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#18 /Applications/XAMPP/xamppfiles/htdocs/HR/index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/HR/index.php?r=site/page&view=overtime
+HTTP_REFERER=http://localhost/HR/index.php
+---
+2013/07/31 04:45:39 [error] [exception.CException] exception 'CException' with message 'Property "CDataColumn.0" is not defined.' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/YiiBase.php(220): CComponent->__set('0', Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/grid/CGridView.php(363): YiiBase::createComponent(Array, Object(CGridView))
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/grid/CGridView.php(334): CGridView->initColumns()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(147): CGridView->init()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(172): CBaseController->createWidget('zii.widgets.gri...', Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/HR/protected/views/site/pages/overtime.php(63): CBaseController->widget('zii.widgets.gri...', Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/X...')
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', NULL, true)
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/X...', NULL, true)
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): CController->renderPartial('pages/overtime', NULL, true)
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CViewAction.php(140): CController->render('pages/overtime')
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CAction.php(76): CViewAction->run()
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CAction->runWithParams(Array)
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CViewAction))
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#15 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('page')
+#16 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/page')
+#17 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#18 /Applications/XAMPP/xamppfiles/htdocs/HR/index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/HR/index.php?r=site/page&view=overtime
+HTTP_REFERER=http://localhost/HR/index.php
+---
+2013/07/31 04:45:39 [error] [exception.CException] exception 'CException' with message 'Property "CDataColumn.0" is not defined.' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/YiiBase.php(220): CComponent->__set('0', Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/grid/CGridView.php(363): YiiBase::createComponent(Array, Object(CGridView))
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/grid/CGridView.php(334): CGridView->initColumns()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(147): CGridView->init()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(172): CBaseController->createWidget('zii.widgets.gri...', Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/HR/protected/views/site/pages/overtime.php(63): CBaseController->widget('zii.widgets.gri...', Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/X...')
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', NULL, true)
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/X...', NULL, true)
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): CController->renderPartial('pages/overtime', NULL, true)
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CViewAction.php(140): CController->render('pages/overtime')
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CAction.php(76): CViewAction->run()
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CAction->runWithParams(Array)
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CViewAction))
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#15 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('page')
+#16 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/page')
+#17 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#18 /Applications/XAMPP/xamppfiles/htdocs/HR/index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/HR/index.php?r=site/page&view=overtime
+HTTP_REFERER=http://localhost/HR/index.php
+---
+2013/07/31 04:45:40 [error] [exception.CException] exception 'CException' with message 'Property "CDataColumn.0" is not defined.' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/YiiBase.php(220): CComponent->__set('0', Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/grid/CGridView.php(363): YiiBase::createComponent(Array, Object(CGridView))
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/grid/CGridView.php(334): CGridView->initColumns()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(147): CGridView->init()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(172): CBaseController->createWidget('zii.widgets.gri...', Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/HR/protected/views/site/pages/overtime.php(63): CBaseController->widget('zii.widgets.gri...', Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/X...')
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', NULL, true)
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/X...', NULL, true)
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): CController->renderPartial('pages/overtime', NULL, true)
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CViewAction.php(140): CController->render('pages/overtime')
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CAction.php(76): CViewAction->run()
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CAction->runWithParams(Array)
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CViewAction))
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#15 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('page')
+#16 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/page')
+#17 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#18 /Applications/XAMPP/xamppfiles/htdocs/HR/index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/HR/index.php?r=site/page&view=overtime
+HTTP_REFERER=http://localhost/HR/index.php
+---
+2013/07/31 04:45:40 [error] [exception.CException] exception 'CException' with message 'Property "CDataColumn.0" is not defined.' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/YiiBase.php(220): CComponent->__set('0', Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/grid/CGridView.php(363): YiiBase::createComponent(Array, Object(CGridView))
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/grid/CGridView.php(334): CGridView->initColumns()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(147): CGridView->init()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(172): CBaseController->createWidget('zii.widgets.gri...', Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/HR/protected/views/site/pages/overtime.php(63): CBaseController->widget('zii.widgets.gri...', Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/X...')
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', NULL, true)
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/X...', NULL, true)
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): CController->renderPartial('pages/overtime', NULL, true)
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CViewAction.php(140): CController->render('pages/overtime')
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CAction.php(76): CViewAction->run()
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CAction->runWithParams(Array)
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CViewAction))
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#15 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('page')
+#16 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/page')
+#17 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#18 /Applications/XAMPP/xamppfiles/htdocs/HR/index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/HR/index.php?r=site/page&view=overtime
+HTTP_REFERER=http://localhost/HR/index.php
+---
+2013/07/31 05:06:41 [error] [exception.CException] exception 'CException' with message 'The "dataProvider" property cannot be empty.' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/CBaseListView.php:105
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/grid/CGridView.php(314): CBaseListView->init()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(147): CGridView->init()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(172): CBaseController->createWidget('zii.widgets.gri...', Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/HR/protected/views/site/pages/overtime.php(66): CBaseController->widget('zii.widgets.gri...', Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/X...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', NULL, true)
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/X...', NULL, true)
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): CController->renderPartial('pages/overtime', NULL, true)
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CViewAction.php(140): CController->render('pages/overtime')
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CAction.php(76): CViewAction->run()
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CAction->runWithParams(Array)
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CViewAction))
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('page')
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/page')
+#15 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#16 /Applications/XAMPP/xamppfiles/htdocs/HR/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/HR/index.php?r=site/page&view=overtime
+HTTP_REFERER=http://localhost/HR/index.php
+---
+2013/07/31 05:06:45 [error] [exception.CException] exception 'CException' with message 'The "dataProvider" property cannot be empty.' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/CBaseListView.php:105
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/grid/CGridView.php(314): CBaseListView->init()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(147): CGridView->init()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(172): CBaseController->createWidget('zii.widgets.gri...', Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/HR/protected/views/site/pages/overtime.php(66): CBaseController->widget('zii.widgets.gri...', Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/X...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', NULL, true)
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/X...', NULL, true)
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): CController->renderPartial('pages/overtime', NULL, true)
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CViewAction.php(140): CController->render('pages/overtime')
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CAction.php(76): CViewAction->run()
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CAction->runWithParams(Array)
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CViewAction))
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('page')
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/page')
+#15 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#16 /Applications/XAMPP/xamppfiles/htdocs/HR/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/HR/index.php?r=site/page&view=overtime
+HTTP_REFERER=http://localhost/HR/index.php
+---
+2013/07/31 05:11:28 [error] [exception.CException] exception 'CException' with message 'The "dataProvider" property cannot be empty.' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/CBaseListView.php:105
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/grid/CGridView.php(314): CBaseListView->init()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(147): CGridView->init()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(172): CBaseController->createWidget('zii.widgets.gri...', Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/HR/protected/views/site/pages/overtime.php(66): CBaseController->widget('zii.widgets.gri...', Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/X...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', NULL, true)
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/X...', NULL, true)
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): CController->renderPartial('pages/overtime', NULL, true)
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CViewAction.php(140): CController->render('pages/overtime')
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CAction.php(76): CViewAction->run()
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CAction->runWithParams(Array)
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CViewAction))
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('page')
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/page')
+#15 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#16 /Applications/XAMPP/xamppfiles/htdocs/HR/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/HR/index.php?r=site/page&view=overtime
+HTTP_REFERER=http://localhost/HR/index.php
+---
+2013/07/31 05:11:50 [error] [exception.CException] exception 'CException' with message 'The "dataProvider" property cannot be empty.' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/CBaseListView.php:105
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/grid/CGridView.php(314): CBaseListView->init()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(147): CGridView->init()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(172): CBaseController->createWidget('zii.widgets.gri...', Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/HR/protected/views/site/pages/overtime.php(66): CBaseController->widget('zii.widgets.gri...', Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/X...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', NULL, true)
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/X...', NULL, true)
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): CController->renderPartial('pages/overtime', NULL, true)
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CViewAction.php(140): CController->render('pages/overtime')
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CAction.php(76): CViewAction->run()
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CAction->runWithParams(Array)
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CViewAction))
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('page')
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/page')
+#15 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#16 /Applications/XAMPP/xamppfiles/htdocs/HR/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/HR/index.php?r=site/page&view=overtime
+HTTP_REFERER=http://localhost/HR/index.php
+---
+2013/07/31 05:11:50 [error] [exception.CException] exception 'CException' with message 'The "dataProvider" property cannot be empty.' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/CBaseListView.php:105
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/grid/CGridView.php(314): CBaseListView->init()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(147): CGridView->init()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(172): CBaseController->createWidget('zii.widgets.gri...', Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/HR/protected/views/site/pages/overtime.php(66): CBaseController->widget('zii.widgets.gri...', Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/X...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', NULL, true)
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/X...', NULL, true)
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): CController->renderPartial('pages/overtime', NULL, true)
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CViewAction.php(140): CController->render('pages/overtime')
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CAction.php(76): CViewAction->run()
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CAction->runWithParams(Array)
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CViewAction))
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('page')
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/page')
+#15 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#16 /Applications/XAMPP/xamppfiles/htdocs/HR/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/HR/index.php?r=site/page&view=overtime
+HTTP_REFERER=http://localhost/HR/index.php
+---
+2013/07/31 05:11:52 [error] [exception.CException] exception 'CException' with message 'The "dataProvider" property cannot be empty.' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/CBaseListView.php:105
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/grid/CGridView.php(314): CBaseListView->init()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(147): CGridView->init()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(172): CBaseController->createWidget('zii.widgets.gri...', Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/HR/protected/views/site/pages/overtime.php(66): CBaseController->widget('zii.widgets.gri...', Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/X...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', NULL, true)
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/X...', NULL, true)
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): CController->renderPartial('pages/overtime', NULL, true)
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CViewAction.php(140): CController->render('pages/overtime')
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CAction.php(76): CViewAction->run()
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CAction->runWithParams(Array)
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CViewAction))
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('page')
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/page')
+#15 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#16 /Applications/XAMPP/xamppfiles/htdocs/HR/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/HR/index.php?r=site/page&view=overtime
+HTTP_REFERER=http://localhost/HR/index.php
+---
+2013/07/31 05:14:00 [error] [exception.CException] exception 'CException' with message 'The "dataProvider" property cannot be empty.' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/CBaseListView.php:105
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/grid/CGridView.php(314): CBaseListView->init()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(147): CGridView->init()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(172): CBaseController->createWidget('zii.widgets.gri...', Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/HR/protected/views/site/pages/overtime.php(66): CBaseController->widget('zii.widgets.gri...', Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/X...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', NULL, true)
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/X...', NULL, true)
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): CController->renderPartial('pages/overtime', NULL, true)
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CViewAction.php(140): CController->render('pages/overtime')
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CAction.php(76): CViewAction->run()
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CAction->runWithParams(Array)
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CViewAction))
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('page')
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/page')
+#15 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#16 /Applications/XAMPP/xamppfiles/htdocs/HR/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/HR/index.php?r=site/page&view=overtime
+HTTP_REFERER=http://localhost/HR/index.php
+---
+2013/07/31 05:14:01 [error] [exception.CException] exception 'CException' with message 'The "dataProvider" property cannot be empty.' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/CBaseListView.php:105
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/grid/CGridView.php(314): CBaseListView->init()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(147): CGridView->init()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(172): CBaseController->createWidget('zii.widgets.gri...', Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/HR/protected/views/site/pages/overtime.php(66): CBaseController->widget('zii.widgets.gri...', Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/X...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', NULL, true)
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/X...', NULL, true)
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): CController->renderPartial('pages/overtime', NULL, true)
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CViewAction.php(140): CController->render('pages/overtime')
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CAction.php(76): CViewAction->run()
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CAction->runWithParams(Array)
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CViewAction))
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('page')
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/page')
+#15 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#16 /Applications/XAMPP/xamppfiles/htdocs/HR/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/HR/index.php?r=site/page&view=overtime
+HTTP_REFERER=http://localhost/HR/index.php
+---
+2013/07/31 05:14:03 [error] [exception.CException] exception 'CException' with message 'The "dataProvider" property cannot be empty.' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/CBaseListView.php:105
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/grid/CGridView.php(314): CBaseListView->init()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(147): CGridView->init()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(172): CBaseController->createWidget('zii.widgets.gri...', Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/HR/protected/views/site/pages/overtime.php(66): CBaseController->widget('zii.widgets.gri...', Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/X...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', NULL, true)
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/X...', NULL, true)
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): CController->renderPartial('pages/overtime', NULL, true)
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CViewAction.php(140): CController->render('pages/overtime')
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CAction.php(76): CViewAction->run()
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CAction->runWithParams(Array)
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CViewAction))
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('page')
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/page')
+#15 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#16 /Applications/XAMPP/xamppfiles/htdocs/HR/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/HR/index.php?r=site/page&view=overtime
+HTTP_REFERER=http://localhost/HR/index.php
+---
+2013/07/31 05:14:46 [error] [exception.CException] exception 'CException' with message 'The "dataProvider" property cannot be empty.' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/CBaseListView.php:105
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/grid/CGridView.php(314): CBaseListView->init()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(147): CGridView->init()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(172): CBaseController->createWidget('zii.widgets.gri...', Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/HR/protected/views/site/pages/overtime.php(66): CBaseController->widget('zii.widgets.gri...', Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/X...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', NULL, true)
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/X...', NULL, true)
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): CController->renderPartial('pages/overtime', NULL, true)
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CViewAction.php(140): CController->render('pages/overtime')
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CAction.php(76): CViewAction->run()
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CAction->runWithParams(Array)
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CViewAction))
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('page')
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/page')
+#15 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#16 /Applications/XAMPP/xamppfiles/htdocs/HR/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/HR/index.php?r=site/page&view=overtime
+HTTP_REFERER=http://localhost/HR/index.php
+---
+2013/07/31 05:14:46 [error] [exception.CException] exception 'CException' with message 'The "dataProvider" property cannot be empty.' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/CBaseListView.php:105
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/grid/CGridView.php(314): CBaseListView->init()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(147): CGridView->init()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(172): CBaseController->createWidget('zii.widgets.gri...', Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/HR/protected/views/site/pages/overtime.php(66): CBaseController->widget('zii.widgets.gri...', Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/X...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', NULL, true)
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/X...', NULL, true)
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): CController->renderPartial('pages/overtime', NULL, true)
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CViewAction.php(140): CController->render('pages/overtime')
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CAction.php(76): CViewAction->run()
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CAction->runWithParams(Array)
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CViewAction))
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('page')
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/page')
+#15 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#16 /Applications/XAMPP/xamppfiles/htdocs/HR/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/HR/index.php?r=site/page&view=overtime
+HTTP_REFERER=http://localhost/HR/index.php
+---
+2013/07/31 05:14:47 [error] [exception.CException] exception 'CException' with message 'The "dataProvider" property cannot be empty.' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/CBaseListView.php:105
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/grid/CGridView.php(314): CBaseListView->init()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(147): CGridView->init()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(172): CBaseController->createWidget('zii.widgets.gri...', Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/HR/protected/views/site/pages/overtime.php(66): CBaseController->widget('zii.widgets.gri...', Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/X...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', NULL, true)
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/X...', NULL, true)
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): CController->renderPartial('pages/overtime', NULL, true)
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CViewAction.php(140): CController->render('pages/overtime')
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CAction.php(76): CViewAction->run()
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CAction->runWithParams(Array)
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CViewAction))
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('page')
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/page')
+#15 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#16 /Applications/XAMPP/xamppfiles/htdocs/HR/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/HR/index.php?r=site/page&view=overtime
+HTTP_REFERER=http://localhost/HR/index.php
+---
+2013/07/31 05:14:49 [error] [exception.CException] exception 'CException' with message 'The "dataProvider" property cannot be empty.' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/CBaseListView.php:105
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/grid/CGridView.php(314): CBaseListView->init()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(147): CGridView->init()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(172): CBaseController->createWidget('zii.widgets.gri...', Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/HR/protected/views/site/pages/overtime.php(66): CBaseController->widget('zii.widgets.gri...', Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/X...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', NULL, true)
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/X...', NULL, true)
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): CController->renderPartial('pages/overtime', NULL, true)
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CViewAction.php(140): CController->render('pages/overtime')
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CAction.php(76): CViewAction->run()
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CAction->runWithParams(Array)
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CViewAction))
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('page')
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/page')
+#15 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#16 /Applications/XAMPP/xamppfiles/htdocs/HR/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/HR/index.php?r=site/page&view=overtime
+HTTP_REFERER=http://localhost/HR/index.php
+---
+2013/07/31 05:16:26 [error] [exception.CException] exception 'CException' with message 'The "dataProvider" property cannot be empty.' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/CBaseListView.php:105
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/grid/CGridView.php(314): CBaseListView->init()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(147): CGridView->init()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(172): CBaseController->createWidget('zii.widgets.gri...', Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/HR/protected/views/site/pages/overtime.php(66): CBaseController->widget('zii.widgets.gri...', Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/X...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', NULL, true)
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/X...', NULL, true)
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): CController->renderPartial('pages/overtime', NULL, true)
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CViewAction.php(140): CController->render('pages/overtime')
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CAction.php(76): CViewAction->run()
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CAction->runWithParams(Array)
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CViewAction))
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('page')
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/page')
+#15 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#16 /Applications/XAMPP/xamppfiles/htdocs/HR/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/HR/index.php?r=site/page&view=overtime
+HTTP_REFERER=http://localhost/HR/index.php
+---
+2013/07/31 05:16:27 [error] [exception.CException] exception 'CException' with message 'The "dataProvider" property cannot be empty.' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/CBaseListView.php:105
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/grid/CGridView.php(314): CBaseListView->init()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(147): CGridView->init()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(172): CBaseController->createWidget('zii.widgets.gri...', Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/HR/protected/views/site/pages/overtime.php(66): CBaseController->widget('zii.widgets.gri...', Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/X...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', NULL, true)
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/X...', NULL, true)
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): CController->renderPartial('pages/overtime', NULL, true)
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CViewAction.php(140): CController->render('pages/overtime')
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CAction.php(76): CViewAction->run()
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CAction->runWithParams(Array)
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CViewAction))
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('page')
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/page')
+#15 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#16 /Applications/XAMPP/xamppfiles/htdocs/HR/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/HR/index.php?r=site/page&view=overtime
+HTTP_REFERER=http://localhost/HR/index.php
+---
+2013/07/31 05:16:28 [error] [exception.CException] exception 'CException' with message 'The "dataProvider" property cannot be empty.' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/CBaseListView.php:105
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/grid/CGridView.php(314): CBaseListView->init()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(147): CGridView->init()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(172): CBaseController->createWidget('zii.widgets.gri...', Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/HR/protected/views/site/pages/overtime.php(66): CBaseController->widget('zii.widgets.gri...', Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/X...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', NULL, true)
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/X...', NULL, true)
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): CController->renderPartial('pages/overtime', NULL, true)
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CViewAction.php(140): CController->render('pages/overtime')
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CAction.php(76): CViewAction->run()
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CAction->runWithParams(Array)
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CViewAction))
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('page')
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/page')
+#15 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#16 /Applications/XAMPP/xamppfiles/htdocs/HR/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/HR/index.php?r=site/page&view=overtime
+HTTP_REFERER=http://localhost/HR/index.php
+---
+2013/07/31 05:18:01 [error] [exception.CException] exception 'CException' with message 'The "dataProvider" property cannot be empty.' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/CBaseListView.php:105
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/grid/CGridView.php(314): CBaseListView->init()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(147): CGridView->init()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(172): CBaseController->createWidget('zii.widgets.gri...', Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/HR/protected/views/site/pages/overtime.php(66): CBaseController->widget('zii.widgets.gri...', Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/X...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', NULL, true)
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/X...', NULL, true)
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): CController->renderPartial('pages/overtime', NULL, true)
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CViewAction.php(140): CController->render('pages/overtime')
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CAction.php(76): CViewAction->run()
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CAction->runWithParams(Array)
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CViewAction))
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('page')
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/page')
+#15 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#16 /Applications/XAMPP/xamppfiles/htdocs/HR/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/HR/index.php?r=site/page&view=overtime
+HTTP_REFERER=http://localhost/HR/index.php
+---
+2013/07/31 05:55:00 [error] [exception.CException] exception 'CException' with message 'The column must be specified in the format of "Name:Type:Label", where "Type" and "Label" are optional.' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/grid/CGridView.php:387
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/grid/CGridView.php(358): CGridView->createDataColumn('Working Date')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/grid/CGridView.php(334): CGridView->initColumns()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(147): CGridView->init()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(172): CBaseController->createWidget('zii.widgets.gri...', Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/HR/protected/views/site/pages/overtime.php(66): CBaseController->widget('zii.widgets.gri...', Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/X...')
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', NULL, true)
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/X...', NULL, true)
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): CController->renderPartial('pages/overtime', NULL, true)
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CViewAction.php(140): CController->render('pages/overtime')
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CAction.php(76): CViewAction->run()
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CAction->runWithParams(Array)
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CViewAction))
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('page')
+#15 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/page')
+#16 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#17 /Applications/XAMPP/xamppfiles/htdocs/HR/index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/HR/index.php?r=site/page&view=overtime
+HTTP_REFERER=http://localhost/HR/index.php
+---
+2013/07/31 05:55:04 [error] [exception.CException] exception 'CException' with message 'The column must be specified in the format of "Name:Type:Label", where "Type" and "Label" are optional.' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/grid/CGridView.php:387
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/grid/CGridView.php(358): CGridView->createDataColumn('Working Date')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/grid/CGridView.php(334): CGridView->initColumns()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(147): CGridView->init()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(172): CBaseController->createWidget('zii.widgets.gri...', Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/HR/protected/views/site/pages/overtime.php(66): CBaseController->widget('zii.widgets.gri...', Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/X...')
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', NULL, true)
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/X...', NULL, true)
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): CController->renderPartial('pages/overtime', NULL, true)
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CViewAction.php(140): CController->render('pages/overtime')
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CAction.php(76): CViewAction->run()
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CAction->runWithParams(Array)
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CViewAction))
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('page')
+#15 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/page')
+#16 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#17 /Applications/XAMPP/xamppfiles/htdocs/HR/index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/HR/index.php?r=site/page&view=overtime
+HTTP_REFERER=http://localhost/HR/index.php
+---
+2013/07/31 06:00:41 [error] [exception.CException] exception 'CException' with message 'Property "CDataColumn.0" is not defined.' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/YiiBase.php(220): CComponent->__set('0', Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/grid/CGridView.php(363): YiiBase::createComponent(Array, Object(CGridView))
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/grid/CGridView.php(334): CGridView->initColumns()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(147): CGridView->init()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(172): CBaseController->createWidget('zii.widgets.gri...', Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/HR/protected/views/site/pages/overtime.php(66): CBaseController->widget('zii.widgets.gri...', Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/X...')
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', NULL, true)
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/X...', NULL, true)
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): CController->renderPartial('pages/overtime', NULL, true)
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CViewAction.php(140): CController->render('pages/overtime')
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CAction.php(76): CViewAction->run()
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CAction->runWithParams(Array)
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CViewAction))
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#15 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('page')
+#16 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/page')
+#17 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#18 /Applications/XAMPP/xamppfiles/htdocs/HR/index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/HR/index.php?r=site/page&view=overtime
+HTTP_REFERER=http://localhost/HR/index.php
+---
+2013/07/31 06:00:42 [error] [exception.CException] exception 'CException' with message 'Property "CDataColumn.0" is not defined.' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/YiiBase.php(220): CComponent->__set('0', Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/grid/CGridView.php(363): YiiBase::createComponent(Array, Object(CGridView))
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/grid/CGridView.php(334): CGridView->initColumns()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(147): CGridView->init()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(172): CBaseController->createWidget('zii.widgets.gri...', Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/HR/protected/views/site/pages/overtime.php(66): CBaseController->widget('zii.widgets.gri...', Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/X...')
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', NULL, true)
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/X...', NULL, true)
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): CController->renderPartial('pages/overtime', NULL, true)
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CViewAction.php(140): CController->render('pages/overtime')
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CAction.php(76): CViewAction->run()
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CAction->runWithParams(Array)
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CViewAction))
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#15 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('page')
+#16 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/page')
+#17 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#18 /Applications/XAMPP/xamppfiles/htdocs/HR/index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/HR/index.php?r=site/page&view=overtime
+HTTP_REFERER=http://localhost/HR/index.php
+---
+2013/07/31 06:00:42 [error] [exception.CException] exception 'CException' with message 'Property "CDataColumn.0" is not defined.' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/YiiBase.php(220): CComponent->__set('0', Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/grid/CGridView.php(363): YiiBase::createComponent(Array, Object(CGridView))
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/grid/CGridView.php(334): CGridView->initColumns()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(147): CGridView->init()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(172): CBaseController->createWidget('zii.widgets.gri...', Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/HR/protected/views/site/pages/overtime.php(66): CBaseController->widget('zii.widgets.gri...', Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/X...')
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', NULL, true)
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/X...', NULL, true)
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): CController->renderPartial('pages/overtime', NULL, true)
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CViewAction.php(140): CController->render('pages/overtime')
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CAction.php(76): CViewAction->run()
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CAction->runWithParams(Array)
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CViewAction))
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#15 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('page')
+#16 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/page')
+#17 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#18 /Applications/XAMPP/xamppfiles/htdocs/HR/index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/HR/index.php?r=site/page&view=overtime
+HTTP_REFERER=http://localhost/HR/index.php
+---
+2013/07/31 06:01:29 [error] [exception.CException] exception 'CException' with message 'Either "name" or "value" must be specified for CDataColumn.' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/grid/CDataColumn.php:78
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/grid/CGridView.php(376): CDataColumn->init()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/grid/CGridView.php(334): CGridView->initColumns()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(147): CGridView->init()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(172): CBaseController->createWidget('zii.widgets.gri...', Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/HR/protected/views/site/pages/overtime.php(66): CBaseController->widget('zii.widgets.gri...', Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/X...')
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', NULL, true)
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/X...', NULL, true)
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): CController->renderPartial('pages/overtime', NULL, true)
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CViewAction.php(140): CController->render('pages/overtime')
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CAction.php(76): CViewAction->run()
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CAction->runWithParams(Array)
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CViewAction))
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('page')
+#15 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/page')
+#16 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#17 /Applications/XAMPP/xamppfiles/htdocs/HR/index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/HR/index.php?r=site/page&view=overtime
+HTTP_REFERER=http://localhost/HR/index.php
+---
+2013/07/31 06:01:29 [error] [exception.CException] exception 'CException' with message 'Either "name" or "value" must be specified for CDataColumn.' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/grid/CDataColumn.php:78
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/grid/CGridView.php(376): CDataColumn->init()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/grid/CGridView.php(334): CGridView->initColumns()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(147): CGridView->init()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(172): CBaseController->createWidget('zii.widgets.gri...', Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/HR/protected/views/site/pages/overtime.php(66): CBaseController->widget('zii.widgets.gri...', Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/X...')
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', NULL, true)
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/X...', NULL, true)
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): CController->renderPartial('pages/overtime', NULL, true)
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CViewAction.php(140): CController->render('pages/overtime')
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CAction.php(76): CViewAction->run()
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CAction->runWithParams(Array)
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CViewAction))
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('page')
+#15 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/page')
+#16 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#17 /Applications/XAMPP/xamppfiles/htdocs/HR/index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/HR/index.php?r=site/page&view=overtime
+HTTP_REFERER=http://localhost/HR/index.php
+---
+2013/07/31 07:19:41 [error] [php] array_slice() expects parameter 1 to be array, object given (/Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CArrayDataProvider.php:92)
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/CBaseListView.php(107): CArrayDataProvider->getData()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/grid/CGridView.php(314): CGridView->init()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(147): CGridView->init()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(172): SiteController->createWidget()
+#4 /Applications/XAMPP/xamppfiles/htdocs/HR/protected/views/site/pages/overtime.php(64): SiteController->widget()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require()
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): SiteController->renderInternal()
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): SiteController->renderFile()
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): SiteController->renderPartial()
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CViewAction.php(140): SiteController->render()
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CAction.php(76): CViewAction->run()
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CViewAction->runWithParams()
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): SiteController->runAction()
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#15 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#16 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#17 /Applications/XAMPP/xamppfiles/htdocs/HR/index.php(13): CWebApplication->run()
+REQUEST_URI=/HR/index.php?r=site/page&view=overtime
+in /Applications/XAMPP/xamppfiles/htdocs/HR/protected/views/site/pages/overtime.php (64)
+in /Applications/XAMPP/xamppfiles/htdocs/HR/index.php (13)
+2013/07/31 07:19:42 [error] [php] array_slice() expects parameter 1 to be array, object given (/Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CArrayDataProvider.php:92)
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/CBaseListView.php(107): CArrayDataProvider->getData()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/grid/CGridView.php(314): CGridView->init()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(147): CGridView->init()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(172): SiteController->createWidget()
+#4 /Applications/XAMPP/xamppfiles/htdocs/HR/protected/views/site/pages/overtime.php(64): SiteController->widget()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require()
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): SiteController->renderInternal()
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): SiteController->renderFile()
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): SiteController->renderPartial()
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CViewAction.php(140): SiteController->render()
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CAction.php(76): CViewAction->run()
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CViewAction->runWithParams()
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): SiteController->runAction()
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#15 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#16 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#17 /Applications/XAMPP/xamppfiles/htdocs/HR/index.php(13): CWebApplication->run()
+REQUEST_URI=/HR/index.php?r=site/page&view=overtime
+in /Applications/XAMPP/xamppfiles/htdocs/HR/protected/views/site/pages/overtime.php (64)
+in /Applications/XAMPP/xamppfiles/htdocs/HR/index.php (13)
+2013/07/31 07:19:42 [error] [php] array_slice() expects parameter 1 to be array, object given (/Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CArrayDataProvider.php:92)
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/CBaseListView.php(107): CArrayDataProvider->getData()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/grid/CGridView.php(314): CGridView->init()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(147): CGridView->init()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(172): SiteController->createWidget()
+#4 /Applications/XAMPP/xamppfiles/htdocs/HR/protected/views/site/pages/overtime.php(64): SiteController->widget()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require()
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): SiteController->renderInternal()
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): SiteController->renderFile()
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): SiteController->renderPartial()
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CViewAction.php(140): SiteController->render()
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CAction.php(76): CViewAction->run()
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CViewAction->runWithParams()
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): SiteController->runAction()
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#15 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#16 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#17 /Applications/XAMPP/xamppfiles/htdocs/HR/index.php(13): CWebApplication->run()
+REQUEST_URI=/HR/index.php?r=site/page&view=overtime
+in /Applications/XAMPP/xamppfiles/htdocs/HR/protected/views/site/pages/overtime.php (64)
+in /Applications/XAMPP/xamppfiles/htdocs/HR/index.php (13)
+2013/07/31 07:19:43 [error] [php] array_slice() expects parameter 1 to be array, object given (/Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CArrayDataProvider.php:92)
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/CBaseListView.php(107): CArrayDataProvider->getData()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/grid/CGridView.php(314): CGridView->init()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(147): CGridView->init()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(172): SiteController->createWidget()
+#4 /Applications/XAMPP/xamppfiles/htdocs/HR/protected/views/site/pages/overtime.php(64): SiteController->widget()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require()
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): SiteController->renderInternal()
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): SiteController->renderFile()
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): SiteController->renderPartial()
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CViewAction.php(140): SiteController->render()
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CAction.php(76): CViewAction->run()
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CViewAction->runWithParams()
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): SiteController->runAction()
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#15 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#16 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#17 /Applications/XAMPP/xamppfiles/htdocs/HR/index.php(13): CWebApplication->run()
+REQUEST_URI=/HR/index.php?r=site/page&view=overtime
+in /Applications/XAMPP/xamppfiles/htdocs/HR/protected/views/site/pages/overtime.php (64)
+in /Applications/XAMPP/xamppfiles/htdocs/HR/index.php (13)
+2013/07/31 07:19:50 [error] [php] array_slice() expects parameter 1 to be array, object given (/Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CArrayDataProvider.php:92)
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/CBaseListView.php(107): CArrayDataProvider->getData()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/grid/CGridView.php(314): CGridView->init()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(147): CGridView->init()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(172): SiteController->createWidget()
+#4 /Applications/XAMPP/xamppfiles/htdocs/HR/protected/views/site/pages/overtime.php(64): SiteController->widget()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require()
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): SiteController->renderInternal()
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): SiteController->renderFile()
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): SiteController->renderPartial()
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CViewAction.php(140): SiteController->render()
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CAction.php(76): CViewAction->run()
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CViewAction->runWithParams()
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): SiteController->runAction()
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#15 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#16 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#17 /Applications/XAMPP/xamppfiles/htdocs/HR/index.php(13): CWebApplication->run()
+REQUEST_URI=/HR/index.php?r=site/page&view=overtime
+in /Applications/XAMPP/xamppfiles/htdocs/HR/protected/views/site/pages/overtime.php (64)
+in /Applications/XAMPP/xamppfiles/htdocs/HR/index.php (13)
+2013/07/31 07:19:50 [error] [php] array_slice() expects parameter 1 to be array, object given (/Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CArrayDataProvider.php:92)
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/CBaseListView.php(107): CArrayDataProvider->getData()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/grid/CGridView.php(314): CGridView->init()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(147): CGridView->init()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(172): SiteController->createWidget()
+#4 /Applications/XAMPP/xamppfiles/htdocs/HR/protected/views/site/pages/overtime.php(64): SiteController->widget()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require()
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): SiteController->renderInternal()
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): SiteController->renderFile()
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): SiteController->renderPartial()
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CViewAction.php(140): SiteController->render()
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CAction.php(76): CViewAction->run()
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CViewAction->runWithParams()
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): SiteController->runAction()
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#15 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#16 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#17 /Applications/XAMPP/xamppfiles/htdocs/HR/index.php(13): CWebApplication->run()
+REQUEST_URI=/HR/index.php?r=site/page&view=overtime
+in /Applications/XAMPP/xamppfiles/htdocs/HR/protected/views/site/pages/overtime.php (64)
+in /Applications/XAMPP/xamppfiles/htdocs/HR/index.php (13)
+2013/07/31 07:19:51 [error] [php] array_slice() expects parameter 1 to be array, object given (/Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CArrayDataProvider.php:92)
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/CBaseListView.php(107): CArrayDataProvider->getData()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/grid/CGridView.php(314): CGridView->init()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(147): CGridView->init()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(172): SiteController->createWidget()
+#4 /Applications/XAMPP/xamppfiles/htdocs/HR/protected/views/site/pages/overtime.php(64): SiteController->widget()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require()
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): SiteController->renderInternal()
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): SiteController->renderFile()
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): SiteController->renderPartial()
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CViewAction.php(140): SiteController->render()
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CAction.php(76): CViewAction->run()
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CViewAction->runWithParams()
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): SiteController->runAction()
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#15 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#16 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#17 /Applications/XAMPP/xamppfiles/htdocs/HR/index.php(13): CWebApplication->run()
+REQUEST_URI=/HR/index.php?r=site/page&view=overtime
+in /Applications/XAMPP/xamppfiles/htdocs/HR/protected/views/site/pages/overtime.php (64)
+in /Applications/XAMPP/xamppfiles/htdocs/HR/index.php (13)
+2013/07/31 07:19:51 [error] [php] array_slice() expects parameter 1 to be array, object given (/Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CArrayDataProvider.php:92)
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/CBaseListView.php(107): CArrayDataProvider->getData()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/grid/CGridView.php(314): CGridView->init()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(147): CGridView->init()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(172): SiteController->createWidget()
+#4 /Applications/XAMPP/xamppfiles/htdocs/HR/protected/views/site/pages/overtime.php(64): SiteController->widget()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require()
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): SiteController->renderInternal()
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): SiteController->renderFile()
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): SiteController->renderPartial()
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CViewAction.php(140): SiteController->render()
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CAction.php(76): CViewAction->run()
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CViewAction->runWithParams()
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): SiteController->runAction()
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#15 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#16 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#17 /Applications/XAMPP/xamppfiles/htdocs/HR/index.php(13): CWebApplication->run()
+REQUEST_URI=/HR/index.php?r=site/page&view=overtime
+in /Applications/XAMPP/xamppfiles/htdocs/HR/protected/views/site/pages/overtime.php (64)
+in /Applications/XAMPP/xamppfiles/htdocs/HR/index.php (13)
+2013/07/31 07:19:53 [error] [php] array_slice() expects parameter 1 to be array, object given (/Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CArrayDataProvider.php:92)
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/CBaseListView.php(107): CArrayDataProvider->getData()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/grid/CGridView.php(314): CGridView->init()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(147): CGridView->init()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(172): SiteController->createWidget()
+#4 /Applications/XAMPP/xamppfiles/htdocs/HR/protected/views/site/pages/overtime.php(64): SiteController->widget()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require()
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): SiteController->renderInternal()
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): SiteController->renderFile()
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): SiteController->renderPartial()
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CViewAction.php(140): SiteController->render()
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CAction.php(76): CViewAction->run()
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CViewAction->runWithParams()
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): SiteController->runAction()
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#15 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#16 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#17 /Applications/XAMPP/xamppfiles/htdocs/HR/index.php(13): CWebApplication->run()
+REQUEST_URI=/HR/index.php?r=site/page&view=overtime
+in /Applications/XAMPP/xamppfiles/htdocs/HR/protected/views/site/pages/overtime.php (64)
+in /Applications/XAMPP/xamppfiles/htdocs/HR/index.php (13)
