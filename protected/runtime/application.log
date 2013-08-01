@@ -6158,3 +6158,688 @@ Stack trace:
 REQUEST_URI=/HR/index.php?r=site/page&view=overtime
 in /Applications/XAMPP/xamppfiles/htdocs/HR/protected/views/site/pages/overtime.php (64)
 in /Applications/XAMPP/xamppfiles/htdocs/HR/index.php (13)
+2013/08/01 01:11:09 [error] [php] Missing argument 2 for CDbCommand::join(), called in /Applications/XAMPP/xamppfiles/htdocs/HR/protected/views/site/pages/overtime.php on line 28 and defined (/Applications/XAMPP/xamppfiles/htdocs/yii/framework/db/CDbCommand.php:867)
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): SiteController->renderInternal()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): SiteController->renderFile()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): SiteController->renderPartial()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CViewAction.php(140): SiteController->render()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CAction.php(76): CViewAction->run()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CViewAction->runWithParams()
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): SiteController->runAction()
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#11 /Applications/XAMPP/xamppfiles/htdocs/HR/index.php(13): CWebApplication->run()
+REQUEST_URI=/HR/index.php?r=site/page&view=overtime
+in /Applications/XAMPP/xamppfiles/htdocs/HR/protected/views/site/pages/overtime.php (28)
+in /Applications/XAMPP/xamppfiles/htdocs/HR/index.php (13)
+2013/08/01 01:11:10 [error] [php] Missing argument 2 for CDbCommand::join(), called in /Applications/XAMPP/xamppfiles/htdocs/HR/protected/views/site/pages/overtime.php on line 28 and defined (/Applications/XAMPP/xamppfiles/htdocs/yii/framework/db/CDbCommand.php:867)
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): SiteController->renderInternal()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): SiteController->renderFile()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): SiteController->renderPartial()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CViewAction.php(140): SiteController->render()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CAction.php(76): CViewAction->run()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CViewAction->runWithParams()
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): SiteController->runAction()
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#11 /Applications/XAMPP/xamppfiles/htdocs/HR/index.php(13): CWebApplication->run()
+REQUEST_URI=/HR/index.php?r=site/page&view=overtime
+in /Applications/XAMPP/xamppfiles/htdocs/HR/protected/views/site/pages/overtime.php (28)
+in /Applications/XAMPP/xamppfiles/htdocs/HR/index.php (13)
+2013/08/01 01:11:11 [error] [php] Missing argument 2 for CDbCommand::join(), called in /Applications/XAMPP/xamppfiles/htdocs/HR/protected/views/site/pages/overtime.php on line 28 and defined (/Applications/XAMPP/xamppfiles/htdocs/yii/framework/db/CDbCommand.php:867)
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): SiteController->renderInternal()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): SiteController->renderFile()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): SiteController->renderPartial()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CViewAction.php(140): SiteController->render()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CAction.php(76): CViewAction->run()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CViewAction->runWithParams()
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): SiteController->runAction()
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#11 /Applications/XAMPP/xamppfiles/htdocs/HR/index.php(13): CWebApplication->run()
+REQUEST_URI=/HR/index.php?r=site/page&view=overtime
+in /Applications/XAMPP/xamppfiles/htdocs/HR/protected/views/site/pages/overtime.php (28)
+in /Applications/XAMPP/xamppfiles/htdocs/HR/index.php (13)
+2013/08/01 01:11:30 [error] [php] Missing argument 2 for CDbCommand::join(), called in /Applications/XAMPP/xamppfiles/htdocs/HR/protected/views/site/pages/overtime.php on line 28 and defined (/Applications/XAMPP/xamppfiles/htdocs/yii/framework/db/CDbCommand.php:867)
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): SiteController->renderInternal()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): SiteController->renderFile()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): SiteController->renderPartial()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CViewAction.php(140): SiteController->render()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CAction.php(76): CViewAction->run()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CViewAction->runWithParams()
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): SiteController->runAction()
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#11 /Applications/XAMPP/xamppfiles/htdocs/HR/index.php(13): CWebApplication->run()
+REQUEST_URI=/HR/index.php?r=site/page&view=overtime
+in /Applications/XAMPP/xamppfiles/htdocs/HR/protected/views/site/pages/overtime.php (28)
+in /Applications/XAMPP/xamppfiles/htdocs/HR/index.php (13)
+2013/08/01 01:11:31 [error] [php] Missing argument 2 for CDbCommand::join(), called in /Applications/XAMPP/xamppfiles/htdocs/HR/protected/views/site/pages/overtime.php on line 28 and defined (/Applications/XAMPP/xamppfiles/htdocs/yii/framework/db/CDbCommand.php:867)
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): SiteController->renderInternal()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): SiteController->renderFile()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): SiteController->renderPartial()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CViewAction.php(140): SiteController->render()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CAction.php(76): CViewAction->run()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CViewAction->runWithParams()
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): SiteController->runAction()
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#11 /Applications/XAMPP/xamppfiles/htdocs/HR/index.php(13): CWebApplication->run()
+REQUEST_URI=/HR/index.php?r=site/page&view=overtime
+in /Applications/XAMPP/xamppfiles/htdocs/HR/protected/views/site/pages/overtime.php (28)
+in /Applications/XAMPP/xamppfiles/htdocs/HR/index.php (13)
+2013/08/01 01:11:34 [error] [php] Missing argument 2 for CDbCommand::join(), called in /Applications/XAMPP/xamppfiles/htdocs/HR/protected/views/site/pages/overtime.php on line 28 and defined (/Applications/XAMPP/xamppfiles/htdocs/yii/framework/db/CDbCommand.php:867)
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): SiteController->renderInternal()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): SiteController->renderFile()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): SiteController->renderPartial()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CViewAction.php(140): SiteController->render()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CAction.php(76): CViewAction->run()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CViewAction->runWithParams()
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): SiteController->runAction()
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#11 /Applications/XAMPP/xamppfiles/htdocs/HR/index.php(13): CWebApplication->run()
+REQUEST_URI=/HR/index.php?r=site/page&view=overtime
+in /Applications/XAMPP/xamppfiles/htdocs/HR/protected/views/site/pages/overtime.php (28)
+in /Applications/XAMPP/xamppfiles/htdocs/HR/index.php (13)
+2013/08/01 01:11:49 [error] [php] Missing argument 2 for CDbCommand::join(), called in /Applications/XAMPP/xamppfiles/htdocs/HR/protected/views/site/pages/overtime.php on line 28 and defined (/Applications/XAMPP/xamppfiles/htdocs/yii/framework/db/CDbCommand.php:867)
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): SiteController->renderInternal()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): SiteController->renderFile()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): SiteController->renderPartial()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CViewAction.php(140): SiteController->render()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CAction.php(76): CViewAction->run()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CViewAction->runWithParams()
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): SiteController->runAction()
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#11 /Applications/XAMPP/xamppfiles/htdocs/HR/index.php(13): CWebApplication->run()
+REQUEST_URI=/HR/index.php?r=site/page&view=overtime
+in /Applications/XAMPP/xamppfiles/htdocs/HR/protected/views/site/pages/overtime.php (28)
+in /Applications/XAMPP/xamppfiles/htdocs/HR/index.php (13)
+2013/08/01 01:11:49 [error] [php] Missing argument 2 for CDbCommand::join(), called in /Applications/XAMPP/xamppfiles/htdocs/HR/protected/views/site/pages/overtime.php on line 28 and defined (/Applications/XAMPP/xamppfiles/htdocs/yii/framework/db/CDbCommand.php:867)
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): SiteController->renderInternal()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): SiteController->renderFile()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): SiteController->renderPartial()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CViewAction.php(140): SiteController->render()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CAction.php(76): CViewAction->run()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CViewAction->runWithParams()
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): SiteController->runAction()
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#11 /Applications/XAMPP/xamppfiles/htdocs/HR/index.php(13): CWebApplication->run()
+REQUEST_URI=/HR/index.php?r=site/page&view=overtime
+in /Applications/XAMPP/xamppfiles/htdocs/HR/protected/views/site/pages/overtime.php (28)
+in /Applications/XAMPP/xamppfiles/htdocs/HR/index.php (13)
+2013/08/01 01:11:52 [error] [php] Missing argument 2 for CDbCommand::join(), called in /Applications/XAMPP/xamppfiles/htdocs/HR/protected/views/site/pages/overtime.php on line 28 and defined (/Applications/XAMPP/xamppfiles/htdocs/yii/framework/db/CDbCommand.php:867)
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): SiteController->renderInternal()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): SiteController->renderFile()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): SiteController->renderPartial()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CViewAction.php(140): SiteController->render()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CAction.php(76): CViewAction->run()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CViewAction->runWithParams()
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): SiteController->runAction()
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#11 /Applications/XAMPP/xamppfiles/htdocs/HR/index.php(13): CWebApplication->run()
+REQUEST_URI=/HR/index.php?r=site/page&view=overtime
+in /Applications/XAMPP/xamppfiles/htdocs/HR/protected/views/site/pages/overtime.php (28)
+in /Applications/XAMPP/xamppfiles/htdocs/HR/index.php (13)
+2013/08/01 01:17:43 [error] [php] Missing argument 2 for CDbCommand::join(), called in /Applications/XAMPP/xamppfiles/htdocs/HR/protected/views/site/pages/overtime.php on line 28 and defined (/Applications/XAMPP/xamppfiles/htdocs/yii/framework/db/CDbCommand.php:867)
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): SiteController->renderInternal()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): SiteController->renderFile()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): SiteController->renderPartial()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CViewAction.php(140): SiteController->render()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CAction.php(76): CViewAction->run()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CViewAction->runWithParams()
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): SiteController->runAction()
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#11 /Applications/XAMPP/xamppfiles/htdocs/HR/index.php(13): CWebApplication->run()
+REQUEST_URI=/HR/index.php?r=site/page&view=overtime
+in /Applications/XAMPP/xamppfiles/htdocs/HR/protected/views/site/pages/overtime.php (28)
+in /Applications/XAMPP/xamppfiles/htdocs/HR/index.php (13)
+2013/08/01 01:18:02 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'sh.std_end' in 'field list'. The SQL statement executed was: SELECT MINUTE(TIMEDIFF(sh.std_end,wh.end_time)) AS minute
+FROM `working_hour` `wh`.
+in /Applications/XAMPP/xamppfiles/htdocs/HR/protected/views/site/pages/overtime.php (30)
+in /Applications/XAMPP/xamppfiles/htdocs/HR/index.php (13)
+2013/08/01 01:18:02 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'sh.std_end' in 'field list'. The SQL statement executed was: SELECT MINUTE(TIMEDIFF(sh.std_end,wh.end_time)) AS minute
+FROM `working_hour` `wh`' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/db/CDbCommand.php:541
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/db/CDbCommand.php(395): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/HR/protected/views/site/pages/overtime.php(30): CDbCommand->queryAll()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/X...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', NULL, true)
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/X...', NULL, true)
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): CController->renderPartial('pages/overtime', NULL, true)
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CViewAction.php(140): CController->render('pages/overtime')
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CAction.php(76): CViewAction->run()
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CAction->runWithParams(Array)
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CViewAction))
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('page')
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/page')
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#14 /Applications/XAMPP/xamppfiles/htdocs/HR/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/HR/index.php?r=site/page&view=overtime
+HTTP_REFERER=http://localhost/HR/index.php?r=workinghour/view&id=3
+---
+2013/08/01 01:22:28 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'wh.start_end' in 'field list'. The SQL statement executed was: SELECT wh.ID, MINUTE(TIMEDIFF(sh.std_end,wh.start_end)) AS minute
+FROM `working_hour` `wh`
+JOIN `standard_hour` `sh` ON sh.id=1.
+in /Applications/XAMPP/xamppfiles/htdocs/HR/protected/views/site/pages/overtime.php (30)
+in /Applications/XAMPP/xamppfiles/htdocs/HR/index.php (13)
+2013/08/01 01:22:28 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'wh.start_end' in 'field list'. The SQL statement executed was: SELECT wh.ID, MINUTE(TIMEDIFF(sh.std_end,wh.start_end)) AS minute
+FROM `working_hour` `wh`
+JOIN `standard_hour` `sh` ON sh.id=1' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/db/CDbCommand.php:541
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/db/CDbCommand.php(395): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/HR/protected/views/site/pages/overtime.php(30): CDbCommand->queryAll()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/X...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', NULL, true)
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/X...', NULL, true)
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): CController->renderPartial('pages/overtime', NULL, true)
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CViewAction.php(140): CController->render('pages/overtime')
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CAction.php(76): CViewAction->run()
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CAction->runWithParams(Array)
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CViewAction))
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('page')
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/page')
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#14 /Applications/XAMPP/xamppfiles/htdocs/HR/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/HR/index.php?r=site/page&view=overtime
+HTTP_REFERER=http://localhost/HR/index.php?r=site/page&view=overtime
+---
+2013/08/01 01:22:29 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'wh.start_end' in 'field list'. The SQL statement executed was: SELECT wh.ID, MINUTE(TIMEDIFF(sh.std_end,wh.start_end)) AS minute
+FROM `working_hour` `wh`
+JOIN `standard_hour` `sh` ON sh.id=1.
+in /Applications/XAMPP/xamppfiles/htdocs/HR/protected/views/site/pages/overtime.php (30)
+in /Applications/XAMPP/xamppfiles/htdocs/HR/index.php (13)
+2013/08/01 01:22:29 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'wh.start_end' in 'field list'. The SQL statement executed was: SELECT wh.ID, MINUTE(TIMEDIFF(sh.std_end,wh.start_end)) AS minute
+FROM `working_hour` `wh`
+JOIN `standard_hour` `sh` ON sh.id=1' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/db/CDbCommand.php:541
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/db/CDbCommand.php(395): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/HR/protected/views/site/pages/overtime.php(30): CDbCommand->queryAll()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/X...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', NULL, true)
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/X...', NULL, true)
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): CController->renderPartial('pages/overtime', NULL, true)
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CViewAction.php(140): CController->render('pages/overtime')
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CAction.php(76): CViewAction->run()
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CAction->runWithParams(Array)
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CViewAction))
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('page')
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/page')
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#14 /Applications/XAMPP/xamppfiles/htdocs/HR/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/HR/index.php?r=site/page&view=overtime
+HTTP_REFERER=http://localhost/HR/index.php?r=site/page&view=overtime
+---
+2013/08/01 01:26:52 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'wh.ID, wh.working_date AS Date, HOUR(TIMEDIFF(wh.end_time,sh.std_end)) AS Overti' at line 1. The SQL statement executed was: SELECT MINUTE(TIMEDIFF(wh.end_time,sh.std_end)) AS OvertimeMinute wh.ID, wh.working_date AS Date, HOUR(TIMEDIFF(wh.end_time,sh.std_end)) AS OvertimeHour
+FROM `working_hour` `wh`
+JOIN `standard_hour` `sh` ON sh.id=1.
+in /Applications/XAMPP/xamppfiles/htdocs/HR/protected/views/site/pages/overtime.php (31)
+in /Applications/XAMPP/xamppfiles/htdocs/HR/index.php (13)
+2013/08/01 01:26:52 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'wh.ID, wh.working_date AS Date, HOUR(TIMEDIFF(wh.end_time,sh.std_end)) AS Overti' at line 1. The SQL statement executed was: SELECT MINUTE(TIMEDIFF(wh.end_time,sh.std_end)) AS OvertimeMinute wh.ID, wh.working_date AS Date, HOUR(TIMEDIFF(wh.end_time,sh.std_end)) AS OvertimeHour
+FROM `working_hour` `wh`
+JOIN `standard_hour` `sh` ON sh.id=1' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/db/CDbCommand.php:541
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/db/CDbCommand.php(395): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/HR/protected/views/site/pages/overtime.php(31): CDbCommand->queryAll()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/X...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', NULL, true)
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/X...', NULL, true)
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): CController->renderPartial('pages/overtime', NULL, true)
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CViewAction.php(140): CController->render('pages/overtime')
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CAction.php(76): CViewAction->run()
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CAction->runWithParams(Array)
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CViewAction))
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('page')
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/page')
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#14 /Applications/XAMPP/xamppfiles/htdocs/HR/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/HR/index.php?r=site/page&view=overtime
+HTTP_REFERER=http://localhost/HR/index.php?r=site/page&view=overtime
+---
+2013/08/01 01:31:42 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SEC_TO_TIME(TIME_TO_SEC(wh.end_time) - TIME_TO_SEC(sh.std_end)) AS TEST
+FROM `wo' at line 3. The SQL statement executed was: SELECT wh.ID, wh.working_date AS Date, HOUR(TIMEDIFF(wh.end_time,sh.std_end)) AS OvertimeHour,
+      TIMESTAMPDIFF(MINUTE,wh.end_time,sh.std_end) AS OvertimeMinute
+      SEC_TO_TIME(TIME_TO_SEC(wh.end_time) - TIME_TO_SEC(sh.std_end)) AS TEST
+FROM `working_hour` `wh`
+JOIN `standard_hour` `sh` ON sh.id=1.
+in /Applications/XAMPP/xamppfiles/htdocs/HR/protected/views/site/pages/overtime.php (32)
+in /Applications/XAMPP/xamppfiles/htdocs/HR/index.php (13)
+2013/08/01 01:31:42 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SEC_TO_TIME(TIME_TO_SEC(wh.end_time) - TIME_TO_SEC(sh.std_end)) AS TEST
+FROM `wo' at line 3. The SQL statement executed was: SELECT wh.ID, wh.working_date AS Date, HOUR(TIMEDIFF(wh.end_time,sh.std_end)) AS OvertimeHour,
+      TIMESTAMPDIFF(MINUTE,wh.end_time,sh.std_end) AS OvertimeMinute
+      SEC_TO_TIME(TIME_TO_SEC(wh.end_time) - TIME_TO_SEC(sh.std_end)) AS TEST
+FROM `working_hour` `wh`
+JOIN `standard_hour` `sh` ON sh.id=1' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/db/CDbCommand.php:541
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/db/CDbCommand.php(395): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/HR/protected/views/site/pages/overtime.php(32): CDbCommand->queryAll()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/X...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', NULL, true)
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/X...', NULL, true)
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): CController->renderPartial('pages/overtime', NULL, true)
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CViewAction.php(140): CController->render('pages/overtime')
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CAction.php(76): CViewAction->run()
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CAction->runWithParams(Array)
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CViewAction))
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('page')
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/page')
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#14 /Applications/XAMPP/xamppfiles/htdocs/HR/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/HR/index.php?r=site/page&view=overtime
+HTTP_REFERER=http://localhost/HR/index.php?r=workinghour/view&id=3
+---
+2013/08/01 01:31:43 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SEC_TO_TIME(TIME_TO_SEC(wh.end_time) - TIME_TO_SEC(sh.std_end)) AS TEST
+FROM `wo' at line 3. The SQL statement executed was: SELECT wh.ID, wh.working_date AS Date, HOUR(TIMEDIFF(wh.end_time,sh.std_end)) AS OvertimeHour,
+      TIMESTAMPDIFF(MINUTE,wh.end_time,sh.std_end) AS OvertimeMinute
+      SEC_TO_TIME(TIME_TO_SEC(wh.end_time) - TIME_TO_SEC(sh.std_end)) AS TEST
+FROM `working_hour` `wh`
+JOIN `standard_hour` `sh` ON sh.id=1.
+in /Applications/XAMPP/xamppfiles/htdocs/HR/protected/views/site/pages/overtime.php (32)
+in /Applications/XAMPP/xamppfiles/htdocs/HR/index.php (13)
+2013/08/01 01:31:43 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SEC_TO_TIME(TIME_TO_SEC(wh.end_time) - TIME_TO_SEC(sh.std_end)) AS TEST
+FROM `wo' at line 3. The SQL statement executed was: SELECT wh.ID, wh.working_date AS Date, HOUR(TIMEDIFF(wh.end_time,sh.std_end)) AS OvertimeHour,
+      TIMESTAMPDIFF(MINUTE,wh.end_time,sh.std_end) AS OvertimeMinute
+      SEC_TO_TIME(TIME_TO_SEC(wh.end_time) - TIME_TO_SEC(sh.std_end)) AS TEST
+FROM `working_hour` `wh`
+JOIN `standard_hour` `sh` ON sh.id=1' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/db/CDbCommand.php:541
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/db/CDbCommand.php(395): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/HR/protected/views/site/pages/overtime.php(32): CDbCommand->queryAll()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/X...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', NULL, true)
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/X...', NULL, true)
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): CController->renderPartial('pages/overtime', NULL, true)
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CViewAction.php(140): CController->render('pages/overtime')
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CAction.php(76): CViewAction->run()
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CAction->runWithParams(Array)
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CViewAction))
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('page')
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/page')
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#14 /Applications/XAMPP/xamppfiles/htdocs/HR/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/HR/index.php?r=site/page&view=overtime
+HTTP_REFERER=http://localhost/HR/index.php?r=workinghour/view&id=3
+---
+2013/08/01 01:35:21 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1305 FUNCTION pi.strupper does not exist. The SQL statement executed was: SELECT wh.ID, pi.strupper(first_name) AS Name, 
+      wh.working_date AS Date, SEC_TO_TIME(TIME_TO_SEC(wh.end_time) - TIME_TO_SEC(sh.std_end)) AS Overtime
+FROM `working_hour` `wh`
+JOIN `standard_hour` `sh` ON sh.id=1
+JOIN `personal_info` `pi` ON pi.ID=wh.personal_id.
+in /Applications/XAMPP/xamppfiles/htdocs/HR/protected/views/site/pages/overtime.php (34)
+in /Applications/XAMPP/xamppfiles/htdocs/HR/index.php (13)
+2013/08/01 01:35:21 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1305 FUNCTION pi.strupper does not exist. The SQL statement executed was: SELECT wh.ID, pi.strupper(first_name) AS Name, 
+      wh.working_date AS Date, SEC_TO_TIME(TIME_TO_SEC(wh.end_time) - TIME_TO_SEC(sh.std_end)) AS Overtime
+FROM `working_hour` `wh`
+JOIN `standard_hour` `sh` ON sh.id=1
+JOIN `personal_info` `pi` ON pi.ID=wh.personal_id' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/db/CDbCommand.php:541
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/db/CDbCommand.php(395): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/HR/protected/views/site/pages/overtime.php(34): CDbCommand->queryAll()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/X...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', NULL, true)
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/X...', NULL, true)
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): CController->renderPartial('pages/overtime', NULL, true)
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CViewAction.php(140): CController->render('pages/overtime')
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CAction.php(76): CViewAction->run()
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CAction->runWithParams(Array)
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CViewAction))
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('page')
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/page')
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#14 /Applications/XAMPP/xamppfiles/htdocs/HR/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/HR/index.php?r=site/page&view=overtime
+HTTP_REFERER=http://localhost/HR/index.php?r=workinghour/view&id=3
+---
+2013/08/01 01:35:34 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1305 FUNCTION hr.strupper does not exist. The SQL statement executed was: SELECT wh.ID, strupper(pi.first_name) AS Name, 
+      wh.working_date AS Date, SEC_TO_TIME(TIME_TO_SEC(wh.end_time) - TIME_TO_SEC(sh.std_end)) AS Overtime
+FROM `working_hour` `wh`
+JOIN `standard_hour` `sh` ON sh.id=1
+JOIN `personal_info` `pi` ON pi.ID=wh.personal_id.
+in /Applications/XAMPP/xamppfiles/htdocs/HR/protected/views/site/pages/overtime.php (34)
+in /Applications/XAMPP/xamppfiles/htdocs/HR/index.php (13)
+2013/08/01 01:35:34 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1305 FUNCTION hr.strupper does not exist. The SQL statement executed was: SELECT wh.ID, strupper(pi.first_name) AS Name, 
+      wh.working_date AS Date, SEC_TO_TIME(TIME_TO_SEC(wh.end_time) - TIME_TO_SEC(sh.std_end)) AS Overtime
+FROM `working_hour` `wh`
+JOIN `standard_hour` `sh` ON sh.id=1
+JOIN `personal_info` `pi` ON pi.ID=wh.personal_id' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/db/CDbCommand.php:541
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/db/CDbCommand.php(395): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/HR/protected/views/site/pages/overtime.php(34): CDbCommand->queryAll()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/X...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', NULL, true)
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/X...', NULL, true)
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): CController->renderPartial('pages/overtime', NULL, true)
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CViewAction.php(140): CController->render('pages/overtime')
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CAction.php(76): CViewAction->run()
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CAction->runWithParams(Array)
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CViewAction))
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('page')
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/page')
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#14 /Applications/XAMPP/xamppfiles/htdocs/HR/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/HR/index.php?r=site/page&view=overtime
+HTTP_REFERER=http://localhost/HR/index.php?r=workinghour/view&id=3
+---
+2013/08/01 01:47:18 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(HH:MM:SS)
+FROM `working_hour` `wh`
+JOIN `standard_hour` `sh` ON sh.id=1
+JOIN `p' at line 2. The SQL statement executed was: SELECT wh.ID, UPPER(pi.first_name) AS Name, 
+      wh.working_date AS Date, SEC_TO_TIME(TIME_TO_SEC(wh.end_time) - TIME_TO_SEC(sh.std_end)) AS Overtime(HH:MM:SS)
+FROM `working_hour` `wh`
+JOIN `standard_hour` `sh` ON sh.id=1
+JOIN `personal_info` `pi` ON pi.ID=wh.personal_id.
+in /Applications/XAMPP/xamppfiles/htdocs/HR/protected/views/site/pages/overtime.php (34)
+in /Applications/XAMPP/xamppfiles/htdocs/HR/index.php (13)
+2013/08/01 01:47:18 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(HH:MM:SS)
+FROM `working_hour` `wh`
+JOIN `standard_hour` `sh` ON sh.id=1
+JOIN `p' at line 2. The SQL statement executed was: SELECT wh.ID, UPPER(pi.first_name) AS Name, 
+      wh.working_date AS Date, SEC_TO_TIME(TIME_TO_SEC(wh.end_time) - TIME_TO_SEC(sh.std_end)) AS Overtime(HH:MM:SS)
+FROM `working_hour` `wh`
+JOIN `standard_hour` `sh` ON sh.id=1
+JOIN `personal_info` `pi` ON pi.ID=wh.personal_id' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/db/CDbCommand.php:541
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/db/CDbCommand.php(395): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/HR/protected/views/site/pages/overtime.php(34): CDbCommand->queryAll()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/X...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', NULL, true)
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/X...', NULL, true)
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): CController->renderPartial('pages/overtime', NULL, true)
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CViewAction.php(140): CController->render('pages/overtime')
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CAction.php(76): CViewAction->run()
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CAction->runWithParams(Array)
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CViewAction))
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('page')
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/page')
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#14 /Applications/XAMPP/xamppfiles/htdocs/HR/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/HR/index.php?r=site/page&view=overtime
+HTTP_REFERER=http://localhost/HR/index.php?r=workinghour/view&id=3
+---
+2013/08/01 01:48:11 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(HH:MM:SS)
+FROM `working_hour` `wh`
+JOIN `standard_hour` `sh` ON sh.id=1
+JOIN `p' at line 2. The SQL statement executed was: SELECT wh.ID, UPPER(pi.first_name) AS Name, 
+      wh.working_date AS Date, SEC_TO_TIME(TIME_TO_SEC(wh.end_time) - TIME_TO_SEC(sh.std_end)) AS Overtime(HH:MM:SS)
+FROM `working_hour` `wh`
+JOIN `standard_hour` `sh` ON sh.id=1
+JOIN `personal_info` `pi` ON pi.ID=wh.personal_id.
+in /Applications/XAMPP/xamppfiles/htdocs/HR/protected/views/site/pages/overtime.php (34)
+in /Applications/XAMPP/xamppfiles/htdocs/HR/index.php (13)
+2013/08/01 01:48:11 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(HH:MM:SS)
+FROM `working_hour` `wh`
+JOIN `standard_hour` `sh` ON sh.id=1
+JOIN `p' at line 2. The SQL statement executed was: SELECT wh.ID, UPPER(pi.first_name) AS Name, 
+      wh.working_date AS Date, SEC_TO_TIME(TIME_TO_SEC(wh.end_time) - TIME_TO_SEC(sh.std_end)) AS Overtime(HH:MM:SS)
+FROM `working_hour` `wh`
+JOIN `standard_hour` `sh` ON sh.id=1
+JOIN `personal_info` `pi` ON pi.ID=wh.personal_id' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/db/CDbCommand.php:541
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/db/CDbCommand.php(395): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/HR/protected/views/site/pages/overtime.php(34): CDbCommand->queryAll()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/X...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', NULL, true)
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/X...', NULL, true)
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): CController->renderPartial('pages/overtime', NULL, true)
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CViewAction.php(140): CController->render('pages/overtime')
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CAction.php(76): CViewAction->run()
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CAction->runWithParams(Array)
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CViewAction))
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('page')
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/page')
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#14 /Applications/XAMPP/xamppfiles/htdocs/HR/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/HR/index.php?r=site/page&view=overtime
+HTTP_REFERER=http://localhost/HR/index.php?r=workinghour/view&id=3
+---
+2013/08/01 01:48:14 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(HH:MM:SS)
+FROM `working_hour` `wh`
+JOIN `standard_hour` `sh` ON sh.id=1
+JOIN `p' at line 2. The SQL statement executed was: SELECT wh.ID, UPPER(pi.first_name) AS Name, 
+      wh.working_date AS Date, SEC_TO_TIME(TIME_TO_SEC(wh.end_time) - TIME_TO_SEC(sh.std_end)) AS Overtime(HH:MM:SS)
+FROM `working_hour` `wh`
+JOIN `standard_hour` `sh` ON sh.id=1
+JOIN `personal_info` `pi` ON pi.ID=wh.personal_id.
+in /Applications/XAMPP/xamppfiles/htdocs/HR/protected/views/site/pages/overtime.php (34)
+in /Applications/XAMPP/xamppfiles/htdocs/HR/index.php (13)
+2013/08/01 01:48:14 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(HH:MM:SS)
+FROM `working_hour` `wh`
+JOIN `standard_hour` `sh` ON sh.id=1
+JOIN `p' at line 2. The SQL statement executed was: SELECT wh.ID, UPPER(pi.first_name) AS Name, 
+      wh.working_date AS Date, SEC_TO_TIME(TIME_TO_SEC(wh.end_time) - TIME_TO_SEC(sh.std_end)) AS Overtime(HH:MM:SS)
+FROM `working_hour` `wh`
+JOIN `standard_hour` `sh` ON sh.id=1
+JOIN `personal_info` `pi` ON pi.ID=wh.personal_id' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/db/CDbCommand.php:541
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/db/CDbCommand.php(395): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/HR/protected/views/site/pages/overtime.php(34): CDbCommand->queryAll()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/X...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', NULL, true)
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/X...', NULL, true)
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): CController->renderPartial('pages/overtime', NULL, true)
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CViewAction.php(140): CController->render('pages/overtime')
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CAction.php(76): CViewAction->run()
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CAction->runWithParams(Array)
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CViewAction))
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('page')
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/page')
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#14 /Applications/XAMPP/xamppfiles/htdocs/HR/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/HR/index.php?r=site/page&view=overtime
+HTTP_REFERER=http://localhost/HR/index.php?r=workinghour/view&id=3
+---
+2013/08/01 01:54:57 [error] [exception.CException] exception 'CException' with message 'The column must be specified in the format of "Name:Type:Label", where "Type" and "Label" are optional.' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/grid/CGridView.php:387
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/grid/CGridView.php(358): CGridView->createDataColumn('Overtime(HH:MM:...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/grid/CGridView.php(334): CGridView->initColumns()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(147): CGridView->init()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(172): CBaseController->createWidget('zii.widgets.gri...', Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/HR/protected/views/site/pages/overtime.php(68): CBaseController->widget('zii.widgets.gri...', Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/X...')
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', NULL, true)
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/X...', NULL, true)
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): CController->renderPartial('pages/overtime', NULL, true)
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CViewAction.php(140): CController->render('pages/overtime')
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CAction.php(76): CViewAction->run()
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CAction->runWithParams(Array)
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CViewAction))
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('page')
+#15 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/page')
+#16 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#17 /Applications/XAMPP/xamppfiles/htdocs/HR/index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/HR/index.php?r=site/page&view=overtime
+HTTP_REFERER=http://localhost/HR/index.php?r=workinghour/view&id=3
+---
+2013/08/01 01:54:58 [error] [exception.CException] exception 'CException' with message 'The column must be specified in the format of "Name:Type:Label", where "Type" and "Label" are optional.' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/grid/CGridView.php:387
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/grid/CGridView.php(358): CGridView->createDataColumn('Overtime(HH:MM:...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/grid/CGridView.php(334): CGridView->initColumns()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(147): CGridView->init()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(172): CBaseController->createWidget('zii.widgets.gri...', Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/HR/protected/views/site/pages/overtime.php(68): CBaseController->widget('zii.widgets.gri...', Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/X...')
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', NULL, true)
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/X...', NULL, true)
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): CController->renderPartial('pages/overtime', NULL, true)
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CViewAction.php(140): CController->render('pages/overtime')
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CAction.php(76): CViewAction->run()
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CAction->runWithParams(Array)
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CViewAction))
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('page')
+#15 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/page')
+#16 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#17 /Applications/XAMPP/xamppfiles/htdocs/HR/index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/HR/index.php?r=site/page&view=overtime
+HTTP_REFERER=http://localhost/HR/index.php?r=workinghour/view&id=3
+---
+2013/08/01 01:54:58 [error] [exception.CException] exception 'CException' with message 'The column must be specified in the format of "Name:Type:Label", where "Type" and "Label" are optional.' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/grid/CGridView.php:387
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/grid/CGridView.php(358): CGridView->createDataColumn('Overtime(HH:MM:...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/grid/CGridView.php(334): CGridView->initColumns()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(147): CGridView->init()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(172): CBaseController->createWidget('zii.widgets.gri...', Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/HR/protected/views/site/pages/overtime.php(68): CBaseController->widget('zii.widgets.gri...', Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/X...')
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', NULL, true)
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/X...', NULL, true)
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): CController->renderPartial('pages/overtime', NULL, true)
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CViewAction.php(140): CController->render('pages/overtime')
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CAction.php(76): CViewAction->run()
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CAction->runWithParams(Array)
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CViewAction))
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('page')
+#15 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/page')
+#16 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#17 /Applications/XAMPP/xamppfiles/htdocs/HR/index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/HR/index.php?r=site/page&view=overtime
+HTTP_REFERER=http://localhost/HR/index.php?r=workinghour/view&id=3
+---
+2013/08/01 01:54:58 [error] [exception.CException] exception 'CException' with message 'The column must be specified in the format of "Name:Type:Label", where "Type" and "Label" are optional.' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/grid/CGridView.php:387
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/grid/CGridView.php(358): CGridView->createDataColumn('Overtime(HH:MM:...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/grid/CGridView.php(334): CGridView->initColumns()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(147): CGridView->init()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(172): CBaseController->createWidget('zii.widgets.gri...', Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/HR/protected/views/site/pages/overtime.php(68): CBaseController->widget('zii.widgets.gri...', Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/X...')
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', NULL, true)
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/X...', NULL, true)
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): CController->renderPartial('pages/overtime', NULL, true)
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CViewAction.php(140): CController->render('pages/overtime')
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CAction.php(76): CViewAction->run()
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CAction->runWithParams(Array)
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CViewAction))
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('page')
+#15 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/page')
+#16 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#17 /Applications/XAMPP/xamppfiles/htdocs/HR/index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/HR/index.php?r=site/page&view=overtime
+HTTP_REFERER=http://localhost/HR/index.php?r=workinghour/view&id=3
+---
+2013/08/01 04:23:05 [error] [exception.CException] exception 'CException' with message 'CDbCommand and its behaviors do not have a method or closure named "orderby".' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CComponent.php:265
+Stack trace:
+#0 [internal function]: CComponent->__call('orderby', Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/HR/protected/views/site/pages/overtime.php(33): CDbCommand->orderby('pi.first_name')
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/X...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', NULL, true)
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/X...', NULL, true)
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): CController->renderPartial('pages/overtime', NULL, true)
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CViewAction.php(140): CController->render('pages/overtime')
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CAction.php(76): CViewAction->run()
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CAction->runWithParams(Array)
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CViewAction))
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('page')
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/page')
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#14 /Applications/XAMPP/xamppfiles/htdocs/HR/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/HR/index.php?r=site/page&view=overtime
+HTTP_REFERER=http://localhost/HR/index.php?r=users/index
+---
+2013/08/01 04:23:05 [error] [exception.CException] exception 'CException' with message 'CDbCommand and its behaviors do not have a method or closure named "orderby".' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CComponent.php:265
+Stack trace:
+#0 [internal function]: CComponent->__call('orderby', Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/HR/protected/views/site/pages/overtime.php(33): CDbCommand->orderby('pi.first_name')
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/X...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', NULL, true)
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/X...', NULL, true)
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): CController->renderPartial('pages/overtime', NULL, true)
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CViewAction.php(140): CController->render('pages/overtime')
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CAction.php(76): CViewAction->run()
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CAction->runWithParams(Array)
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CViewAction))
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('page')
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/page')
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#14 /Applications/XAMPP/xamppfiles/htdocs/HR/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/HR/index.php?r=site/page&view=overtime
+HTTP_REFERER=http://localhost/HR/index.php?r=users/index
+---
+2013/08/01 04:26:09 [error] [exception.CException] exception 'CException' with message 'CDbCommand and its behaviors do not have a method or closure named "orderBy".' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CComponent.php:265
+Stack trace:
+#0 [internal function]: CComponent->__call('orderBy', Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/HR/protected/views/site/pages/overtime.php(33): CDbCommand->orderBy('pi.first_name, ...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/X...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', NULL, true)
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/X...', NULL, true)
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): CController->renderPartial('pages/overtime', NULL, true)
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CViewAction.php(140): CController->render('pages/overtime')
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CAction.php(76): CViewAction->run()
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CAction->runWithParams(Array)
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CViewAction))
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('page')
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/page')
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#14 /Applications/XAMPP/xamppfiles/htdocs/HR/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/HR/index.php?r=site/page&view=overtime
+HTTP_REFERER=http://localhost/HR/index.php?r=users/index
+---
